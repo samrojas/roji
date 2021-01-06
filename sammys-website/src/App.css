@@ -1,0 +1,35 @@
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  min-height: 15vh;
+  background-color: #9E2a2a;
+  display: flex;
+}
+
+header button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+}
+
+button:hover{
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: #E25959;
+}
+.button-container {
+  border: 1px solid black;
+  width: auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 10px;
+  margin: 10px;
+}
