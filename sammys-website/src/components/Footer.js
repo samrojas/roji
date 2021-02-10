@@ -8,4 +8,4 @@ function Footer(){
     )
 }
 
-export default Header
+export default Footer
