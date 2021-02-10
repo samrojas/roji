@@ -19,17 +19,274 @@ header button {
   font-size: 20px;
 }
 
-button:hover{
-  transition-duration: 0.4s;
+/* Header Logo Style */
+.logo{
+  padding: 5px;
+  width: 8vw;
+  height: 15vh;
+}
+
+.logo:hover {
+  transition: 0.4s;
+  cursor: pointer;
+
+}
+/* ======= */
+p {
+  font-family: Tofino;
+}
+
+button p{
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+button p:hover{
+  transition-duration: 0.1s;
   cursor: pointer;
   color: #E25959;
 }
+
 .button-container {
-  border: 1px solid black;
   width: auto; 
   display: flex;
   justify-content: center;
   align-items: center; 
-  padding: 10px;
   margin: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
+
+/* === Sammy's CSS === */
+
+/* Reset CSS */
+html {
+overflow-y: scroll;
+}
+
+/* Font Information */
+
+@font-face {
+  font-family: "Tofino";
+  font-weight: normal;
+  src: url("./styles/Fonts/TofinoPersonal-Regular.woff");
+}
+
+/* === NAV BEGIN === */
+
+/* .fixed-header{
+      top: 0;
+}
+
+.nav-menu ul{
+  position: fixed;
+  display: inline;
+  width: 100%;
+  padding: 20px;
+  list-style: none;
+  text-align: center;
+  background-color: #9E2A2A;    
+  margin-top: -150px;
+  z-index: 100;
+}
+
+.nav-menu li a{
+  float: left;
+  display: inline;
+  padding: 15px;
+  padding-left: 20px;
+  color: #DA2A2B;
+  text-decoration: none;
+  font-family: Tofino;
+  font-weight: bold;
+  font-size: 20px;
+} */
+
+/* Header Menu Active Style */
+/* .nav-menu li a:active {
+  color: white;
+} */
+
+/* Header Menu Mouse-Over Style */
+/* .nav-menu li a:hover {
+  color: white;
+  transition: 0.1s;
+} */
+
+/* === NAV END === */
+
+
+
+/* === GALLERY === */
+
+/* #filters {
+margin-top: -45px;;
+padding:0;
+list-style:none;
+  
+}
+
+#filters li {
+float:left;
+  font-family: Tofino;
+}
+
+#filters li span {
+display: block;
+padding:5px 20px;		
+text-decoration:none;
+color:#666;
+cursor: pointer;
+}
+
+#filters li span.active {
+background: #9E2A2A;
+  color:#fff;
+}
+
+body{
+  z-index: 80;
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+
+}
+
+.container { 
+position: relative; 
+width: 960px; 
+margin: 0 auto; 
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;	
+}
+
+#portfoliolist .portfolio {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+width:23%;
+margin:1%;
+display:none;
+float:left;
+overflow:hidden;
+}
+
+.portfolio-wrapper {
+overflow:hidden;
+position: relative !important;
+background: #666;
+cursor:pointer;
+}
+
+.portfolio img {
+max-width:100%;
+position: relative;
+top:0;
+  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);		
+}
+
+.portfolio .label {
+position: absolute;
+width: 100%;
+height:40px;
+bottom:-40px;
+  -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:         all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.portfolio .label-bg {
+  background: #e95a44;
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.portfolio .label-text {
+  color:#fff;
+  position: relative;
+  z-index:500;
+  padding:5px 8px;
+}
+
+.portfolio .text-category {
+  display:block;
+  font-size:9px;
+}
+
+.portfolio:hover .label {
+  bottom:0;
+}
+.portfolio:hover img {
+  top:-30px;
+}   */
+
+
+/* === WORK CONTENT END === */
+
+
+/* === FOOTER === */
+
+/* .fixed-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  color: #DA2A2B;
+  text-align: left;
+  font-size: 12px;
+  text-indent: 2px;
+  font-family: Tofino;
+  font-weight: normal;
+  z-index: 90;
+}
+
+.fixed-footer hr{
+  display: block;
+  float: none;
+  border-color: #DA2A2B;
+  border-style: inset;
+  margin-left:  px;
+  margin-bottom: 2px;
+  padding-bottom: 0px;
+  width: 100%;
+  border-width: .5px;
+}
+
+.fixed-footer p{
+  margin-left:  15px;
+} */
+
+/* === RESPONSIVE INTERVENTIONS === */
+  
+/* #Tablet (Portrait) */
+/* @media only screen and (min-width: 768px) and (max-width: 959px) {
+.container {
+  width: 768px; 
+}
+} */
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+/* @media only screen and (max-width: 767px) {
+.container { 
+  width: 95%; 
+}
+
+#portfoliolist .portfolio {
+  width:48%;
+  margin:1%;
+}		
+} */
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+/* @media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {
+  width: 70%;
+}
+} */
