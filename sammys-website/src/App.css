@@ -57,6 +57,9 @@ button p:hover{
   padding-right: 50px;
 }
 
+.button-selected{
+  font-weight: bold;
+}
 /* === FOOTER === */
 
 .fixed-footer {
@@ -142,31 +145,59 @@ overflow-y: scroll;
 
 /* === GALLERY === */
 
-/* #filters {
+/* .filter {
 margin-top: -45px;;
 padding:0;
 list-style:none;
   
 }
 
-#filters li {
-float:left;
-  font-family: Tofino;
+.filter li {
+  float:left;
 }
 
-#filters li span {
-display: block;
-padding:5px 20px;		
-text-decoration:none;
-color:#666;
-cursor: pointer;
+.filter li span {
+  display: block;
+  padding:5px 20px;		
+  text-decoration:none;
+  color:#666;
+  cursor: pointer;
 }
 
-#filters li span.active {
-background: #9E2A2A;
+.filter li span.active {
+  background: #9E2A2A;
   color:#fff;
+} */
+
+.filter{
+  font-family: Tofino;
+  text-decoration: none;
+  height: 10px;
+  width: 13px;
+  position: relative;
+  padding: 2px;
 }
 
+li{
+  margin: 10px;
+}
+
+.filter:hover {
+  cursor: pointer;
+  color: #9E2A2A;
+}
+.selected {
+  color: #9E2A2A;
+  list-style: circle;
+
+  /* color:#fff; */
+}
+.list-container {
+  padding: 30px;
+  list-style-type: none;
+    
+}
+/*
 body{
   z-index: 80;
   margin-top: 50px;

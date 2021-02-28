@@ -4,21 +4,49 @@ import LogoWhite from '../img/ROJIWhite@3x.png'
 
 import { animated, useSpring } from 'react-spring'
 
-function Header(){
+function Header(props){
     const [hover, setHover] = useState(false)
+    const [buttons, setButtons] = useState(
+       [
+            {
+                class: "button-selected",
+                text: 'Work'
+            },
+            {
+                class: "",
+                text: "About"
+            },
+        ]
+
+    )
+
+    const selectButton = (button) => {
+            let buttonCopy = [...buttons]
+            const prevSelected = buttons.find(x => x.class === "button-selected")
+            const nextSelected = buttons.find(x => x.text === button)
+            const before = buttonCopy.indexOf(prevSelected)
+            const after = buttonCopy.indexOf(nextSelected)
+            
+            buttonCopy[before].class = ""
+            buttonCopy[after].class = "button-selected"
+            props.setSelected(button)
+            setButtons(buttonCopy) 
+    }
 
     return(
         <header className="header">
-            
-                <img onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)} className="logo" src={hover ? LogoWhite : Logo} alt="logo"/>
+
+            <img onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)} className="logo" src={hover ? LogoWhite : Logo} alt="logo"/>
             
             <div className='button-container'>
-                <button>
-                    <p>Work</p>
-                </button>
-                <button>
-                    <p>About</p>
-                </button>
+                {buttons.map(x => {
+                    return(
+                        <button onClick={() => selectButton(x.text)} className={x.class}>
+                            <p>{x.text}</p>
+                        </button>
+                    )
+                })}
+                
             </div>
         </header>
     )
