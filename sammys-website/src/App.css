@@ -6,9 +6,15 @@
 
 header {
   width: 100%;
-  min-height: 15vh;
+  min-height: 10vh;
   background-color: #9E2a2a;
   display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 15px;
 }
 
 header button {
@@ -21,9 +27,10 @@ header button {
 
 /* Header Logo Style */
 .logo{
-  padding: 5px;
-  width: 8vw;
-  height: 15vh;
+  padding: 17px;
+  width: 5vw;
+  height: 10vh;
+
 }
 
 .logo:hover {
@@ -52,13 +59,14 @@ button p:hover{
   display: flex;
   justify-content: center;
   align-items: center; 
-  margin: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 7px;
+  padding-right: 7px;
+
+
 }
 
 .button-selected{
-  font-weight: bold;
+  color: #E25959;
 }
 /* === FOOTER === */
 
@@ -96,6 +104,14 @@ overflow-y: scroll;
   font-family: "Tofino";
   font-weight: normal;
   src: url("./styles/Fonts/TofinoPersonal-Regular.woff");
+}
+
+.work{
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 0;
 }
 
 /* === NAV BEGIN === */
@@ -176,6 +192,7 @@ list-style:none;
   width: 13px;
   position: relative;
   padding: 2px;
+
 }
 
 li{
@@ -195,7 +212,24 @@ li{
 .list-container {
   padding: 30px;
   list-style-type: none;
-    
+  position: fixed;
+  left: 0;
+  z-index: 0;
+}
+
+.portfolio-wrapper{
+  margin: auto;
+}
+
+.masonry{
+  position: relative;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 200px;
+  border: 2px solid black;
+  min-height: 100vh;
+  width: 100vw;
+  z-index: -1;
 }
 /*
 body{

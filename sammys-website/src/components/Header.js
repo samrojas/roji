@@ -1,10 +1,12 @@
 import {useState} from 'react'
 import Logo from '../img/ROJI@3x.png'
 import LogoWhite from '../img/ROJIWhite@3x.png'
+import {useHistory} from 'react-router-dom'
 
 import { animated, useSpring } from 'react-spring'
 
 function Header(props){
+    let history = useHistory()
     const [hover, setHover] = useState(false)
     const [buttons, setButtons] = useState(
        [
@@ -29,6 +31,8 @@ function Header(props){
             
             buttonCopy[before].class = ""
             buttonCopy[after].class = "button-selected"
+
+            history.push(`/${button.toLowerCase()}`)
             props.setSelected(button)
             setButtons(buttonCopy) 
     }
