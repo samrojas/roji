@@ -53,7 +53,6 @@ function Filters(props){
     }
 
     return(
-        <div>
 
         <ul className="list-container">
             {filters.map((filter) => {
@@ -65,7 +64,6 @@ function Filters(props){
             })}           
         </ul>
 
-        </div>
     )
 }
 
