@@ -231,6 +231,28 @@ li{
   width: 100vw;
   z-index: -1;
 }
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 60vh;
+}
+
+.paragraph-container{
+  height: 60vh;
+
+  border: 1px solid black;
+}
+
+.paragraph{
+  border: 1px solid black;
+}
+.about-pic{
+  border: 1px solid black;
+  background-image: url("./img/ROJI@3x.png");
+}
 /*
 body{
   z-index: 80;
