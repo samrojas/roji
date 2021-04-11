@@ -18,25 +18,25 @@ header {
 }
 
 header button {
-  color: white;
+  color:#DA2A2B;
   background-color: transparent;
   border: none;
-  padding: 15px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 20px;
 }
 
 /* Header Logo Style */
 .logo{
-  padding: 17px;
-  width: 5vw;
-  height: 10vh;
-
+  padding-left: 25px;
+  width: 65px;
+  height: 40px;
 }
 
 .logo:hover {
   transition: 0.4s;
   cursor: pointer;
-
 }
 /* ======= */
 p {
@@ -44,14 +44,14 @@ p {
 }
 
 button p{
-  font-size: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 button p:hover{
   transition-duration: 0.1s;
   cursor: pointer;
-  color: #E25959;
+  color: #FFFFFF;
 }
 
 .button-container {
@@ -59,14 +59,12 @@ button p:hover{
   display: flex;
   justify-content: center;
   align-items: center; 
-  padding-left: 7px;
-  padding-right: 7px;
-
-
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .button-selected{
-  color: #E25959;
+  color: #FFFFFF;
 }
 /* === FOOTER === */
 
@@ -76,11 +74,11 @@ button p:hover{
   left: 0;
   bottom: 0;
   width: 100vw;
-  height: 50px;
+  height: 20px;
   background-color: white;
   color: #DA2A2B;
   text-align: left;
-  font-size: 15px;
+  font-size: 12px;
   text-indent: 2px;
   font-family: Tofino;
   font-weight: normal;
@@ -88,10 +86,11 @@ button p:hover{
 }
 
 .fixed-footer p{
-  margin:  15px;
+  margin:  5px;
+  padding-left: 20px;
 }
 
-/* === Sammy's CSS === */
+/* === Sam's CSS === */
 
 /* Reset CSS */
 html {
@@ -226,7 +225,7 @@ li{
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 200px;
-  border: 2px solid black;
+  border: 2px solid transparent;
   border-top: none;
   min-height: 100vh;
   width: 100vw;
@@ -370,7 +369,7 @@ bottom:-40px;
       margin-left: 120px;
       margin-right: auto;
       margin-bottom: 100px;
-      border: 2px solid black;
+      border: 2px solid transparent;
       border-top: none;
       min-height: 100vh;
       width: 70vw;
