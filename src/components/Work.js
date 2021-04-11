@@ -10,12 +10,16 @@ function Filters(props){
              },
              {
                  class: "filter ",
-                 text: "Design"
+                 text: "Branding"
              },
              {
                  class: "filter",
-                 text: "Branding"
+                 text: "Design"
              },
+             {
+                class: "filter",
+                text: "Illustrations"
+            },
              {
                  class: "filter ",
                  text: "Photo"
@@ -32,10 +36,6 @@ function Filters(props){
                  class: "filter",
                  text: "3D"
              },
-             {
-                 class: "filter",
-                 text: "Illustrations"
-             }
              
          ]
     )
@@ -53,6 +53,7 @@ function Filters(props){
     }
 
     return(
+        <div>
 
         <ul className="list-container">
             {filters.map((filter) => {
@@ -64,6 +65,7 @@ function Filters(props){
             })}           
         </ul>
 
+        </div>
     )
 }
 
@@ -74,61 +76,61 @@ function WorkContents(props){
             filter: "design",
             imgs: [
                 {
-                    src: 'https://www.dropbox.com/s/hp615fnlay3tohg/Hibernation%20Cover.png', 
+                    // Hibernation Cover
+                    src: 'https://www.dropbox.com/s/cx1nasf6p68sdc3/hibernation-web.png', 
                     width: 1,
                     height: 1
                 },
                 {
-                    src: 'https://www.dropbox.com/s/qzf9mcqqprhyqk8/Moonlit_River_CoverV4.png', 
+                    // Moonlit River Cover
+                    src: 'https://www.dropbox.com/s/taqyz7n15up4xr6/moonlitriver-web.png', 
                     width: 1,
                     height: 1
                 },
                 {
-                    src: 'https://www.dropbox.com/s/7wre3u93szfhdpn/NON-cover.png', 
-                    width: 1,
-                    height: 1
-                },
-                {
+                    // Beta Recruitment 2017
                     src:  'https://www.dropbox.com/s/01x8l9ffisap78u/2017-Recruitment.png', 
                     width: 16,
                     height: 9
                 },
                 {
-                    src:  'https://www.dropbox.com/s/susakjefdyabsui/A%20Summer%27s%20End.jpg', 
-                    width: 4,
-                    height: 3
-                },
-                {
-                    src:  'https://www.dropbox.com/s/v7kd3yl24q8f15a/A%20Summer%27s%20Midnight%20Dream.jpg', 
-                    width: 4,
-                    height: 3
-                },
-                {
+                    // The Lost Summer - Title Card
                     src:  'https://www.dropbox.com/s/0naayr6ogcreu9i/TLS-TitleCard.png', 
                     width: 4,
                     height: 3
                 },
                 {
-                    src:  'https://www.dropbox.com/s/zmjslwbi82igxxx/Island%20City_FINAL.png', 
+                    // Island City - Playlist Cover
+                    src:  'https://www.dropbox.com/s/8jmib8c8r1oophz/Island%20City%202.jpg', 
                     width: 1,
                     height: 1
                 },
                 {
+                    // CyberSound - Playlist Cover
+                    src: 'https://www.dropbox.com/s/y89nhsj0vpc6o9v/CyberSound.jpg',
+                    width: 1,
+                    height: 1
+                },
+                {
+                    // Hot Nights in Firenze - Playlist Cover
                     src:  'https://www.dropbox.com/s/4wvkh0wm1pz4tq2/HotNightsinFirenze-edit.jpg', 
                     width: 1,
                     height: 1
                 },
+                // {
+                //     // 2004 DMX Express - Playlist Cover
+                //     src:  'https://www.dropbox.com/s/rhmnbzuuumwuy8y/2004%20DMX%20Express.jpg', 
+                //     width: 1,
+                //     height: 1
+                // },
                 {
-                    src:  'https://www.dropbox.com/s/rhmnbzuuumwuy8y/2004%20DMX%20Express.jpg', 
-                    width: 1,
-                    height: 1
-                },
-                {
+                    // Wizard Weekend 2019 - Shirt Design
                     src:  'https://www.dropbox.com/s/gfmntebc2tn5ja6/MAIN.png', 
-                    width: 4,
-                    height: 5
+                    width: 9,
+                    height: 16
                 },
                 {
+                    // Wizard Weekend 2020 - Shirt Design
                     src:  'https://www.dropbox.com/s/x0smxwv02ebckuf/Wizard_Weekend_2020v2.png', 
                     width: 4,
                     height: 5
@@ -139,24 +141,25 @@ function WorkContents(props){
             filter:"photo",
             imgs: [
                 {
+                    
                     src:  'https://www.dropbox.com/s/0kljx8x63p1bdel/Big%20Sur.jpg', 
                     width: 9,
                     height: 16
                 },
                 {
                     src:  'https://www.dropbox.com/s/tkgbwa5hy5odyof/L.jpg', 
-                    width: 9,
-                    height: 16
+                    width: 4,
+                    height: 6
                 },
                 {
                     src:  'https://www.dropbox.com/s/6vpwl0y9r4ep14y/landmark.jpg', 
-                    width: 9,
-                    height: 16
+                    width: 4,
+                    height: 6
                 },
                 {
                     src:  'https://www.dropbox.com/s/zvfgggd3h07q60m/Largs.jpg', 
-                    width: 4,
-                    height: 3
+                    width: 6,
+                    height: 4
                 },
                 {
                     src:  'https://www.dropbox.com/s/jrpd8643x32ctyg/Nahant.jpg', 
@@ -165,8 +168,8 @@ function WorkContents(props){
                 },
                 {
                     src:  'https://www.dropbox.com/s/ywoymqkiiv4nv95/parco%20neon.jpg', 
-                    width: 9,
-                    height: 16
+                    width: 4,
+                    height: 6
                 },
             ]                      
         },
@@ -184,44 +187,40 @@ function WorkContents(props){
             filter:"video",
             imgs: [
                 {
-                    src:  'https://www.dropbox.com/s/8yu68lmd6rcof7y/A%20Summer%27s%20Midnight%20Dream.mp4', 
-                    width: 4,
-                    height: 5
+                    // A Summer's End - Clip
+                    src: 'https://www.dropbox.com/s/fjvj240d7uvk8gj/ASE-web.gif',
+                    width: 6,
+                    height: 4
                 },
                 {
-                    src:  'https://www.dropbox.com/s/lmgbf6u9h92jwks/Land%27s%20End.MP4', 
-                    width: 4,
-                    height: 5
+                    // A Summer's Midnight Dream - Clip
+                    src: 'https://www.dropbox.com/s/vchbf4nzp4y5gk5/ASMD-web.gif',
+                    width: 6,
+                    height: 4
                 },
                 {
-                    src:  'https://www.dropbox.com/s/rcm09iweu4d79tl/ROJI-SONO%20Sessions%3A%20Remember%20Summer%20Days%20Promo.mp4', 
+                  // Nangs - Clip
+                  src: 'https://www.dropbox.com/s/gz9of2zjftu41aj/nangs-web.gif',
+                  width: 6,
+                  height: 4  
+                },
+                // {
+
+                //     src:  'https://www.dropbox.com/s/lmgbf6u9h92jwks/Land%27s%20End.MP4', 
+                //     width: 4,
+                //     height: 5
+                // },
+                {
+                    // Hibernation Promo
+                    src:  'https://www.dropbox.com/s/rjmvobe2i4yhvoa/hibernationvideo-web.gif', 
                     width: 4,
-                    height: 5
+                    height: 3
                 },
                 {
-                    src:  'https://www.dropbox.com/s/cvbdfo04q66lr88/ROJI-SONO%20Sessions%3A%20CyberSound%20Promo.mp4', 
-                    width: 4,
-                    height: 5
-                },
-                {
-                    src:  'https://www.dropbox.com/s/mxe6hosi1v6wjws/Hibernation%20Promo.mp4', 
-                    width: 4,
-                    height: 5
-                },
-                {
-                    src:  '', 
-                    width: 4,
-                    height: 5
-                },
-                {
-                    src:  'https://www.dropbox.com/s/l2kx135c9jcggof/Nucleus%20of%20Now%20Promo.mp4', 
-                    width: 4,
-                    height: 5
-                },
-                {
-                    src:  'https://www.dropbox.com/s/vcvdkngnhwh8a5s/SUBJECT_01.mp4', 
-                    width: 4,
-                    height: 5
+                    // SE/AC
+                    src:  'https://www.dropbox.com/s/5jzd6brsswdpxy1/seac-web.gif', 
+                    width: 6,
+                    height: 4
                 },
                 
             ]
@@ -229,54 +228,64 @@ function WorkContents(props){
         {
             filter:"branding",
             imgs: [                     
-            // {
-            //     src:  'https://www.dropbox.com/s/cbrnn984k27u2is/Baylor%20FHE%20final.png', 
-            //     width: 4,
-            //     height: 5
-            // },
-            // {
-            //     src:  'https://media.giphy.com/media/XKS43DNcWuxR7Mk7DL/giphy.gif', 
-            //     width: 4,
-            //     height: 3
-            // },
+
             {
+                // ROJI Logo
                 src:  'https://www.dropbox.com/s/uorh4cx5aei75o0/ROJI-png.png', 
                 width: 4,
                 height: 3
             },
             {
-                src:  'https://www.dropbox.com/s/adcgh85rxuaynub/embark.png', 
-                width: 8,
-                height: 3
+                // Embark Logo
+                src: 'https://www.dropbox.com/s/ow43w8k988wxsgt/embark-web.gif',
+                width: 1,
+                height: 1
             },
             {
+                // ROJI-HANO Logo
+                src: 'https://www.dropbox.com/s/vklcw2meknhva5u/roji%20hano%20logo.gif',
+                width: 1,
+                height: 1
+            },
+            {
+                // ALDA Gaming Logo
+                src: "https://www.dropbox.com/s/uy3ltp1ahlt2kqo/aldagaming-web.png",
+                width: 6,
+                height: 4
+            },
+            {
+                // Clicky_D Logo
+                src: 'https://www.dropbox.com/s/dk52k1eyfnmitsp/clicky-D-web.gif',
+                width: 598,
+                height: 232
+            },
+            {
+                // Wizard Logo
                 src:  'https://www.dropbox.com/s/3lcqdn51n0p5yct/2020-12-09-073407387.jpg', 
                 width: 1,
                 height: 1
             },
             {
+                // On the Brink Logo
+                src: 'https://www.dropbox.com/s/ibgmpm49i7e6phr/onthebrink-web.gif',
+                width: 16,
+                height: 9
+            },
+            {
+                // Hops of Hollow Logo
                 src:  'https://www.dropbox.com/s/4sr35zbw5rloedz/Hops%20of%20Hollow.png', 
                 width: 1,
                 height: 1
             },
             {
+                // JSidney Logo
                 src:  'https://www.dropbox.com/s/jajnqlgndbl7b62/monogramv2.png', 
                 width: 1,
                 height: 1
             },
-           
             {
-                src:  'https://www.dropbox.com/s/j2xlm4iz4v25cii/brinkv2.svg', 
-                width: 1,
-                height: 1
-            },
-            {
+                // What's the Dill Logo
                 src:  'https://www.dropbox.com/s/lup0itb8az3d6mu/WTD%3F.png', 
-                width: 1,
-                height: 1
-            },
-            {
-                src:  'https://www.dropbox.com/s/f5t3y84o3ytfkr9/full-logo.png', 
                 width: 1,
                 height: 1
             },
@@ -296,14 +305,16 @@ function WorkContents(props){
             filter:"3D",
             imgs: [
                 {
-                    src:  'https://sketchfab.com/3d-models/kix-aa2d4496a51641229ff8528cb2b9e249', 
-                    width: 4,
-                    height: 5
+                    // Coudaltia: KIX Portable Calcutron
+                    src:  'https://www.dropbox.com/s/5hmzrfwjjq55olv/kix_portable_calcatron-web.gif', 
+                    width: 16,
+                    height: 9
                 },
                 {
-                    src:   'https://sketchfab.com/3d-models/zui-00-658354193b7f4e098a59ff792c909412', 
-                    width: 4,
-                    height: 5
+                    // Coudaltia: ZUI 00 Spacecraft
+                    src:   'https://www.dropbox.com/s/a0s7xjuu4igb001/zui_00-web.gif', 
+                    width: 16,
+                    height: 9
                 },
             ]            
         },
@@ -311,15 +322,23 @@ function WorkContents(props){
             filter: "illustrations",
             imgs: [
                 {
+                    // Koala
                     src:  'https://www.dropbox.com/s/n2j81p4zb15vhbf/Koalad.png', 
-                    width: 4,
-                    height: 5
+                    width: 3,
+                    height: 3
                 },
                 {
+                    // Shibi
                     src:  'https://www.dropbox.com/s/5detwsemksusc60/Shibi.png', 
                     width: 4,
                     height: 5
                 },
+                {
+                    //Yeshla
+                    src: 'https://www.dropbox.com/s/5dkf0zsbdjf908z/yesha-web.png',
+                    width: 5,
+                    height: 4
+                }
             ]
         }
     ]
