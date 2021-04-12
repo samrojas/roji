@@ -20,6 +20,10 @@ function Filters(props){
                 class: "filter",
                 text: "Illustrations"
             },
+            {
+                class: "filter",
+                text: "Models"
+            },
              {
                  class: "filter ",
                  text: "Photo"
@@ -31,10 +35,6 @@ function Filters(props){
              {
                  class: "filter",
                  text: "Video"
-             },
-             {
-                 class: "filter",
-                 text: "3D"
              },
              
          ]
@@ -72,6 +72,85 @@ function Filters(props){
 function WorkContents(props){
     console.log("props", props)
     const imgs = [
+        {
+            filter:"branding",
+            imgs: [                     
+
+            {
+                // ROJI Logo
+                src:  'https://www.dropbox.com/s/uorh4cx5aei75o0/ROJI-png.png', 
+                width: 4,
+                height: 3
+            },
+            {
+                // Embark Logo
+                src: 'https://www.dropbox.com/s/1q487ajny0c6zis/embark.gif',
+                width: 1,
+                height: 1
+            },
+            {
+                // ROJI-HANO Logo
+                src: 'https://www.dropbox.com/s/vklcw2meknhva5u/roji%20hano%20logo.gif',
+                width: 1,
+                height: 1
+            },
+            {
+                // ALDA Gaming Logo
+                src: "https://www.dropbox.com/s/uy3ltp1ahlt2kqo/aldagaming-web.png",
+                width: 6,
+                height: 4
+            },
+            {
+                // Clicky_D Logo
+                src: 'https://www.dropbox.com/s/dk52k1eyfnmitsp/clicky-D-web.gif',
+                width: 598,
+                height: 232
+            },
+            {
+                // Wizard Logo
+                src:  'https://www.dropbox.com/s/3lcqdn51n0p5yct/2020-12-09-073407387.jpg', 
+                width: 1,
+                height: 1
+            },
+            {
+                // On the Brink Logo
+                src: 'https://www.dropbox.com/s/ibgmpm49i7e6phr/onthebrink-web.gif',
+                width: 16,
+                height: 9
+            },
+            {
+                // Hops of Hollow Logo
+                src:  'https://www.dropbox.com/s/4sr35zbw5rloedz/Hops%20of%20Hollow.png', 
+                width: 1,
+                height: 1
+            },
+            {
+                // JSidney Logo
+                src:  'https://www.dropbox.com/s/jajnqlgndbl7b62/monogramv2.png', 
+                width: 1,
+                height: 1
+            },
+            {
+                // What's the Dill Logo
+                src:  'https://www.dropbox.com/s/lup0itb8az3d6mu/WTD%3F.png', 
+                width: 1,
+                height: 1
+            },
+            {
+                // ROJI in Neon
+                src: 'https://www.dropbox.com/s/qkqi84z1sq82qhx/rojineon-web.gif',
+                width: 4,
+                height: 3
+            },
+            {
+                // We Are Unsilenceable Logo
+                src:  'https://www.dropbox.com/s/kgjou7704ytgvsf/Artboard%202%404x.png', 
+                width: 1,
+                height: 1
+            },
+        ]               
+        },
+
         {
             filter: "design",
             imgs: [
@@ -137,42 +216,170 @@ function WorkContents(props){
                 },
             ],
         },
+
+        {
+            filter: "illustrations",
+            imgs: [
+                {
+                    // Koala
+                    src:  'https://www.dropbox.com/s/n2j81p4zb15vhbf/Koalad.png', 
+                    width: 3,
+                    height: 3
+                },
+                {
+                    // Shibi
+                    src:  'https://www.dropbox.com/s/5detwsemksusc60/Shibi.png', 
+                    width: 4,
+                    height: 5
+                },
+                {
+                    //Yeshla
+                    src: 'https://www.dropbox.com/s/5dkf0zsbdjf908z/yesha-web.png',
+                    width: 5,
+                    height: 4
+                }
+            ]
+        },
+
+        {
+            filter:"models",
+            imgs: [
+                {
+                    // Coudaltia: KIX Portable Calcutron
+                    src:  'https://www.dropbox.com/s/5hmzrfwjjq55olv/kix_portable_calcatron-web.gif', 
+                    width: 16,
+                    height: 9
+                },
+                {
+                    // Coudaltia: ZUI 00 Spacecraft
+                    src:   'https://www.dropbox.com/s/a0s7xjuu4igb001/zui_00-web.gif', 
+                    width: 16,
+                    height: 9
+                },
+            ]            
+        },
+
         {
             filter:"photo",
             imgs: [
                 {
-                    
+                    // Big Sur
                     src:  'https://www.dropbox.com/s/0kljx8x63p1bdel/Big%20Sur.jpg', 
                     width: 9,
                     height: 16
                 },
                 {
+                    // L Train
                     src:  'https://www.dropbox.com/s/tkgbwa5hy5odyof/L.jpg', 
                     width: 4,
                     height: 6
                 },
                 {
+                    // Yokohama Landmark
                     src:  'https://www.dropbox.com/s/6vpwl0y9r4ep14y/landmark.jpg', 
                     width: 4,
                     height: 6
                 },
                 {
+                    // Largs Coast
                     src:  'https://www.dropbox.com/s/zvfgggd3h07q60m/Largs.jpg', 
                     width: 6,
                     height: 4
                 },
                 {
+                    // Nahant Beach
                     src:  'https://www.dropbox.com/s/jrpd8643x32ctyg/Nahant.jpg', 
                     width: 4,
                     height:3
                 },
                 {
+                    // PARCO Neon
                     src:  'https://www.dropbox.com/s/ywoymqkiiv4nv95/parco%20neon.jpg', 
                     width: 4,
                     height: 6
                 },
+                {
+                    // Zurich Station
+                    src:'https://www.dropbox.com/s/6zo1wzyuz5unyol/zurichcentralstation.jpeg',
+                    width: 16,
+                    height: 9
+                },
+                {
+                    // Les Invalides
+                    src: 'https://www.dropbox.com/s/3kynun26h3hi4f2/lesinvalides.jpg',
+                    width: 3,
+                    height: 4
+                },
+                {
+                    // Venetian Lamp
+                    src: 'https://www.dropbox.com/s/x11169l3jgyfmnk/venetianlamp.jpeg',
+                    width: 9,
+                    height: 16
+                },
+                {
+                    // Under Neon Lights
+                    src: 'https://www.dropbox.com/s/89i06ahwpnkio95/underneonlights.jpeg',
+                    width: 2048,
+                    height: 938
+                },
+                {
+                    // River Seine
+                    src: 'https://www.dropbox.com/s/nqsivyok86c2mvv/riverseine.jpg',
+                    width: 4,
+                    height: 3
+                },
+                {
+                    // Eiffel Tower
+                    src: 'https://www.dropbox.com/s/o0d67ntrfyukvod/eiffeltower.jpg',
+                    width: 4,
+                    height: 3
+                },
+                {
+                    // Culzean Castle
+                    src: 'https://www.dropbox.com/s/516v5792q50qmwi/culzeancastle.jpeg',
+                    width: 4,
+                    height: 3
+                },
+                {
+                    // Barcelona Metro
+                    src: 'https://www.dropbox.com/s/f1vcvrg2o8u36hk/barcametro.jpeg',
+                    width: 16,
+                    height: 9
+                },
+                {
+                    // Waco Steel Bridge
+                    src: 'https://www.dropbox.com/s/gzk0krjdz24gitz/wacobridge.jpg',
+                    width: 4,
+                    height: 3
+                },
+                {
+                    // Travelling Robot
+                    src: 'https://www.dropbox.com/s/ojdja03rzkp9cny/travellingrobot.jpeg',
+                    width: 3,
+                    height: 4
+                },
+                {
+                    // Rocky Shores
+                    src: 'https://www.dropbox.com/s/ahzfky46u833r66/rockyshores.jpeg',
+                    width: 4,
+                    height: 3
+                },
+                {
+                    // Bath Street
+                    src: 'https://www.dropbox.com/s/e09wxo1hwb1e70o/bathstreet.jpg',
+                    width: 4,
+                    height: 3
+                },
+                {
+                    // Abandoned Warehouse
+                    src: 'https://www.dropbox.com/s/j9myofha8in287y/abandonedwarehouse.jpg',
+                    width: 16,
+                    height: 9
+                }
+
             ]                      
         },
+
         {
             filter:"type",
             imgs: [
@@ -183,6 +390,7 @@ function WorkContents(props){
                 },
             ]
         },
+
         {
             filter:"video",
             imgs: [
@@ -225,122 +433,6 @@ function WorkContents(props){
                 
             ]
         },
-        {
-            filter:"branding",
-            imgs: [                     
-
-            {
-                // ROJI Logo
-                src:  'https://www.dropbox.com/s/uorh4cx5aei75o0/ROJI-png.png', 
-                width: 4,
-                height: 3
-            },
-            {
-                // Embark Logo
-                src: 'https://www.dropbox.com/s/ow43w8k988wxsgt/embark-web.gif',
-                width: 1,
-                height: 1
-            },
-            {
-                // ROJI-HANO Logo
-                src: 'https://www.dropbox.com/s/vklcw2meknhva5u/roji%20hano%20logo.gif',
-                width: 1,
-                height: 1
-            },
-            {
-                // ALDA Gaming Logo
-                src: "https://www.dropbox.com/s/uy3ltp1ahlt2kqo/aldagaming-web.png",
-                width: 6,
-                height: 4
-            },
-            {
-                // Clicky_D Logo
-                src: 'https://www.dropbox.com/s/dk52k1eyfnmitsp/clicky-D-web.gif',
-                width: 598,
-                height: 232
-            },
-            {
-                // Wizard Logo
-                src:  'https://www.dropbox.com/s/3lcqdn51n0p5yct/2020-12-09-073407387.jpg', 
-                width: 1,
-                height: 1
-            },
-            {
-                // On the Brink Logo
-                src: 'https://www.dropbox.com/s/ibgmpm49i7e6phr/onthebrink-web.gif',
-                width: 16,
-                height: 9
-            },
-            {
-                // Hops of Hollow Logo
-                src:  'https://www.dropbox.com/s/4sr35zbw5rloedz/Hops%20of%20Hollow.png', 
-                width: 1,
-                height: 1
-            },
-            {
-                // JSidney Logo
-                src:  'https://www.dropbox.com/s/jajnqlgndbl7b62/monogramv2.png', 
-                width: 1,
-                height: 1
-            },
-            {
-                // What's the Dill Logo
-                src:  'https://www.dropbox.com/s/lup0itb8az3d6mu/WTD%3F.png', 
-                width: 1,
-                height: 1
-            },
-            {
-                src:  'https://www.dropbox.com/s/xx4e6fm5x79udtf/KINOBEE.png', 
-                width: 8,
-                height: 3
-            },
-            {
-                src:  'https://www.dropbox.com/s/kgjou7704ytgvsf/Artboard%202%404x.png', 
-                width: 1,
-                height: 1
-            },
-        ]               
-        },
-        {
-            filter:"3D",
-            imgs: [
-                {
-                    // Coudaltia: KIX Portable Calcutron
-                    src:  'https://www.dropbox.com/s/5hmzrfwjjq55olv/kix_portable_calcatron-web.gif', 
-                    width: 16,
-                    height: 9
-                },
-                {
-                    // Coudaltia: ZUI 00 Spacecraft
-                    src:   'https://www.dropbox.com/s/a0s7xjuu4igb001/zui_00-web.gif', 
-                    width: 16,
-                    height: 9
-                },
-            ]            
-        },
-        {
-            filter: "illustrations",
-            imgs: [
-                {
-                    // Koala
-                    src:  'https://www.dropbox.com/s/n2j81p4zb15vhbf/Koalad.png', 
-                    width: 3,
-                    height: 3
-                },
-                {
-                    // Shibi
-                    src:  'https://www.dropbox.com/s/5detwsemksusc60/Shibi.png', 
-                    width: 4,
-                    height: 5
-                },
-                {
-                    //Yeshla
-                    src: 'https://www.dropbox.com/s/5dkf0zsbdjf908z/yesha-web.png',
-                    width: 5,
-                    height: 4
-                }
-            ]
-        }
     ]
 
     let content = []

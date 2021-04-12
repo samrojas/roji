@@ -357,7 +357,7 @@ bottom:-40px;
     background-color: #9E2a2a;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     position: sticky;
     top: 0;
     z-index: 1;
