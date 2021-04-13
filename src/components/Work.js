@@ -375,8 +375,73 @@ function WorkContents(props){
                     src: 'https://www.dropbox.com/s/j9myofha8in287y/abandonedwarehouse.jpg',
                     width: 16,
                     height: 9
+                },
+                {
+                    // Appalachians
+                    src: 'https://www.dropbox.com/s/qxlpfcgwj5kxuue/appalachians.jpeg',
+                    width: 16,
+                    height: 9
+                },
+                {
+                    // Brooklyn Bridge
+                    src: 'https://www.dropbox.com/s/ilmqwjfspnuzzh3/brooklynbridge.jpg',
+                    width: 3,
+                    height: 4
+                },
+                {
+                    // Chinatown Tunnel
+                    src: 'https://www.dropbox.com/s/ub95xjoyqyyfhdt/chinatowntunnel.jpeg',
+                    width: 4608,
+                    height: 2112
+                },
+                {
+                    // Institut de France
+                    src: 'https://www.dropbox.com/s/2ffgxm5ypr3sdjd/institutdefrance.jpg',
+                    width: 4,
+                    height: 3
+                },
+                {
+                    // Golden Gate
+                    src: 'https://www.dropbox.com/s/9gnxt84b1ezs1a9/goldengate.jpeg',
+                    width: 9,
+                    height: 16
+                },
+                {
+                    // Land's End
+                    src:'https://www.dropbox.com/s/34c70hh9apwy155/landsend.jpeg',
+                    width: 16,
+                    height: 9
+                },
+                {
+                    // Needle
+                    src: 'https://www.dropbox.com/s/vt4u2a3qx1e0m5v/needle.jpeg',
+                    width: 9,
+                    height: 16
+                },
+                {
+                    // Nijo
+                    src: 'https://www.dropbox.com/s/w3bjwmt2cdk8yay/nijo.jpeg',
+                    width: 4,
+                    height: 3
+                },
+                {
+                    // Orange Line
+                    src: 'https://www.dropbox.com/s/1pzte87v050q7n8/orangeline.jpeg',
+                    width: 9,
+                    height: 16
+                },
+                {
+                    // Senso-ji
+                    src: 'https://www.dropbox.com/s/maoejoprld6e3g6/senso-ji.jpeg',
+                    width: 3,
+                    height: 4
+                },
+                {
+                    // Zephyr
+                    src: 'https://www.dropbox.com/s/ct4buch44t3bhln/zephyr.jpeg',
+                    width: 16,
+                    height: 9
                 }
-
             ]                      
         },
 
