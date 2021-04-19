@@ -167,8 +167,8 @@ function WorkContents(props){
                     height: 1
                 },
                 {
-                    // Beta Recruitment 2017
-                    src:  'https://www.dropbox.com/s/01x8l9ffisap78u/2017-Recruitment.png', 
+                    // Baylor Student Activities
+                    src:  'https://www.dropbox.com/s/u71oyarqydujm8s/BU-Graphic.jpg', 
                     width: 16,
                     height: 9
                 },
@@ -441,6 +441,12 @@ function WorkContents(props){
                     src: 'https://www.dropbox.com/s/ct4buch44t3bhln/zephyr.jpeg',
                     width: 16,
                     height: 9
+                },
+                {
+                    // Amsterdam
+                    src: 'https://www.dropbox.com/s/h2usdwnczhqjgu4/ams.jpeg',
+                    width: 3,
+                    height: 4
                 }
             ]                      
         },
