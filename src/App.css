@@ -356,7 +356,7 @@ bottom:-40px;
     min-height: 10vh;
     background-color: #9E2a2a;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: left;
     position: sticky;
     top: 0;
@@ -396,3 +396,13 @@ bottom:-40px;
   width: 70%;
 }
 } */
+.paragraph-container{
+  border-style: none;
+  width: 300px;
+}
+.paragraph{
+  padding-left: 40px;
+  padding-top: 30px;
+  border-style: none;
+  z-index: 0;
+}
