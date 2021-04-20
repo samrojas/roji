@@ -102,9 +102,9 @@ function WorkContents(props){
             },
             {
                 // Clicky_D Logo
-                src: 'https://www.dropbox.com/s/dk52k1eyfnmitsp/clicky-D-web.gif',
-                width: 598,
-                height: 232
+                src: 'https://www.dropbox.com/s/urnpv71udp9w8yp/clickyd-web2.gif',
+                width: 4,
+                height: 3
             },
             {
                 // Wizard Logo
@@ -148,6 +148,12 @@ function WorkContents(props){
                 width: 1,
                 height: 1
             },
+            {
+                // Baylor FHE
+                src: 'https://www.dropbox.com/s/6omq1f8jz7udlb8/BUFHE-web.png',
+                width: 4,
+                height: 3
+            }
         ]               
         },
 
@@ -179,6 +185,12 @@ function WorkContents(props){
                     height: 3
                 },
                 {
+                    // Wizard Weekend 3.0
+                    src: 'https://www.dropbox.com/s/esrz5nytie64eki/ani3.0.gif',
+                    width: 1,
+                    height: 1
+                },
+                {
                     // Island City - Playlist Cover
                     src:  'https://www.dropbox.com/s/8jmib8c8r1oophz/Island%20City%202.jpg', 
                     width: 1,
@@ -203,16 +215,16 @@ function WorkContents(props){
                 //     height: 1
                 // },
                 {
-                    // Wizard Weekend 2019 - Shirt Design
-                    src:  'https://www.dropbox.com/s/gfmntebc2tn5ja6/MAIN.png', 
-                    width: 9,
-                    height: 16
+                    // Wizard Weekend 2019
+                    src:  'https://www.dropbox.com/s/x6ngarbow1nsjpy/ww-graphic-web.png', 
+                    width: 3,
+                    height: 4
                 },
                 {
-                    // Wizard Weekend 2020 - Shirt Design
-                    src:  'https://www.dropbox.com/s/x0smxwv02ebckuf/Wizard_Weekend_2020v2.png', 
-                    width: 4,
-                    height: 5
+                    // Wizard Weekend 2020
+                    src:  'https://www.dropbox.com/s/ihnd6r1ts9ei0gz/WizardWeekend%202020-web.jpg', 
+                    width: 3,
+                    height: 4
                 },
             ],
         },
