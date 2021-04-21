@@ -192,6 +192,12 @@ li{
   background-image: url("./img/ROJI@3x.png");
 }
 
+.ROJI-logotype p{
+  font-family: Roji-Sans;
+  font-size: 200px;
+  letter-spacing: -.06rem;
+  color:#9E2a2a;
+}
 
 /* === RESPONSIVE INTERVENTIONS === */
   

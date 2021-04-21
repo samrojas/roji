@@ -17,10 +17,13 @@ function About(){
                 <br></br>
                 <hr></hr>
                 <br></br>
-                <p>Connect - 
-                <br></br>
-                Links - 
-                </p>
+
+                <div className='ROJI-logotype'>
+                    <p>ROJI</p>
+                </div>
+
+ 
+
             </div>
        </div>
     </div>
