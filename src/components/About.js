@@ -11,9 +11,9 @@ function About(){
             </div>
             <div className='paragraph'>
                 <p>
-                    Throughout time, people have used the sum of their blended experiences to forge something new through whatever medium they choose. 
+                    Throughout time, people have used the sum of their blended experiences to forge something new through multiple mediums. 
                     <br></br><br></br>
-                    Driven by a fear of the unknown future, many <i>create</i> to define that unknown for themselves with their own work.
+                    Driven by a fear of the unknown future, many <i>create</i> to define it for themselves with their own work.
                     <br></br><br></br>
                     In that same spirit, this website exists as the home for creations crafted by <b>Sam Rojas</b>. May they exist online forever.
                 </p>
