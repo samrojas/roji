@@ -137,6 +137,12 @@ function WorkContents(props){
                 height: 1
             },
             {
+                // ROJI-SONO
+                src: 'https://www.dropbox.com/s/9ecvwigc315864h/rojisono_lockup.png',
+                width: 1,
+                height: 1
+            },
+            {
                 // What's the Dill Logo
                 src:  'https://www.dropbox.com/s/lup0itb8az3d6mu/WTD%3F.png', 
                 width: 1,

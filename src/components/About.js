@@ -18,7 +18,7 @@ function About(){
                     <br></br><br></br>
                     Driven by a fear of the unknown future, many <i>create</i> to define that unknown for themselves with their own work.
                     <br></br><br></br>
-                    In that same spirit, this website exists as the home for creations crafted by <b>Sam Rojas</b>. 
+                    In that same spirit, this website exists as the home for creations crafted by <b>Sam Rojas</b>. May they exist online forever.
                 </p>
 
                 <br></br>
@@ -63,10 +63,10 @@ function About(){
                 <br></br>
                 <hr></hr>
                 <br></br>
-
-                <div className='ROJI-logotype'>
+                <img src="https://www.dropbox.com/s/pd7dn481ddczcve/ROJI%20logotype.png?dl=1" atl="ROJI logo"></img>
+                {/* <div className='ROJI-logotype'>
                     <p>ROJI</p>
-                </div>
+                </div> */}
 
  
 

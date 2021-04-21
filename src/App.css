@@ -83,7 +83,7 @@ button p:hover{
 }
 
 .fixed-footer p{
-  margin:  1px;
+  margin:  0px;
   padding-left: 35px;
 }
 
@@ -172,12 +172,18 @@ li{
 .about{
   display: flex;
   justify-content:left;
-  border: 1px solid none;
-  height: 60vh;
+  position: fixed;
+  height: 100%;
+  background-image: url("./img/roji-bg-web.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:screen;
 }
 
 .paragraph-container{
-  height: 60vh;
+  position: relative;
+  height: 100%;
   width: 100vw;
   align-self: flex-start;
   padding: 40px;
@@ -224,6 +230,10 @@ li{
   color:#9E2a2a;
 }
 
+.paragraph img{
+  width: 45px;
+}
+
 /* === RESPONSIVE INTERVENTIONS === */
   
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
@@ -247,13 +257,6 @@ li{
     padding-right: 10px;
     width: 18vw;
     height: auto;
-  }
-
-  .ROJI-logotype p{
-    font-family: ROJI-SANS;
-    font-size: 60px;
-    letter-spacing: -.10rem;
-    color:#9E2a2a;
   }
 
   .masonry{
@@ -320,6 +323,14 @@ li{
   .paragraph p{
     font-size: 14px;
     text-align:left;
+  }
+
+  .about{
+    display: flex;
+    justify-content:left;
+    height: 100%;
+    background-image: none;
+    border-style: none;
   }
 
 }
