@@ -28,6 +28,7 @@ header button {
 }
 
 /* Header Logo Style */
+
 .logo{
   padding-left: 25px;
   width: 65px;
@@ -86,11 +87,10 @@ button p:hover{
 }
 
 .fixed-footer p{
-  margin:  2px;
+  margin:  1px;
   padding-left: 20px;
 }
 
-/* === Sam's CSS === */
 
 /* Reset CSS */
 html {
@@ -112,51 +112,6 @@ overflow-y: scroll;
   position: relative;
   z-index: 0;
 }
-
-/* === NAV BEGIN === */
-
-/* .fixed-header{
-      top: 0;
-}
-
-.nav-menu ul{
-  position: fixed;
-  display: inline;
-  width: 100%;
-  padding: 20px;
-  list-style: none;
-  text-align: center;
-  background-color: #9E2A2A;    
-  margin-top: -150px;
-  z-index: 100;
-}
-
-.nav-menu li a{
-  float: left;
-  display: inline;
-  padding: 15px;
-  padding-left: 20px;
-  color: #DA2A2B;
-  text-decoration: none;
-  font-family: Tofino;
-  font-weight: bold;
-  font-size: 20px;
-} */
-
-/* Header Menu Active Style */
-/* .nav-menu li a:active {
-  color: white;
-} */
-
-/* Header Menu Mouse-Over Style */
-/* .nav-menu li a:hover {
-  color: white;
-  transition: 0.1s;
-} */
-
-/* === NAV END === */
-
-
 
 /* === GALLERY === */
 
@@ -232,25 +187,27 @@ li{
   z-index: -1;
 }
 
+/* === ABOUT === */
+
 .about{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid none;
   height: 60vh;
 }
 
 .paragraph-container{
   height: 60vh;
 
-  border: 1px solid black;
+  border: 1px solid none;
 }
 
 .paragraph{
-  border: 1px solid black;
+  border: 1px solid none;
 }
 .about-pic{
-  border: 1px solid black;
+  border: 1px solid none;
   background-image: url("./img/ROJI@3x.png");
 }
 /*
@@ -362,6 +319,7 @@ bottom:-40px;
     top: 0;
     z-index: 1;
     padding: 15px;
+    padding-left: 0px;
   }
 
   .masonry{
@@ -396,13 +354,3 @@ bottom:-40px;
   width: 70%;
 }
 } */
-.paragraph-container{
-  border-style: none;
-  width: 300px;
-}
-.paragraph{
-  padding-left: 40px;
-  padding-top: 30px;
-  border-style: none;
-  z-index: 0;
-}

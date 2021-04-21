@@ -108,7 +108,7 @@ function WorkContents(props){
             },
             {
                 // Wizard Logo
-                src:  'https://www.dropbox.com/s/3lcqdn51n0p5yct/2020-12-09-073407387.jpg', 
+                src:  'https://www.dropbox.com/s/zg4q12wdkuv9a2b/wizemblem.jpg', 
                 width: 1,
                 height: 1
             },
@@ -120,13 +120,19 @@ function WorkContents(props){
             },
             {
                 // Hops of Hollow Logo
-                src:  'https://www.dropbox.com/s/4sr35zbw5rloedz/Hops%20of%20Hollow.png', 
+                src:  'https://www.dropbox.com/s/ldgr9mjvhqqz8k1/HOH-web.png', 
                 width: 1,
                 height: 1
             },
             {
                 // JSidney Logo
                 src:  'https://www.dropbox.com/s/jajnqlgndbl7b62/monogramv2.png', 
+                width: 1,
+                height: 1
+            },
+            {
+                // Voyagers Logo
+                src: 'https://www.dropbox.com/s/2khj2piz4btg45j/voyagers-web.jpg',
                 width: 1,
                 height: 1
             },
@@ -276,127 +282,133 @@ function WorkContents(props){
             imgs: [
                 {
                     // Big Sur
-                    src:  'https://www.dropbox.com/s/0kljx8x63p1bdel/Big%20Sur.jpg', 
+                    src:  'https://www.dropbox.com/s/iq4lfru34xedx2y/bigsur-web.jpeg', 
                     width: 9,
                     height: 16
                 },
                 {
                     // L Train
-                    src:  'https://www.dropbox.com/s/tkgbwa5hy5odyof/L.jpg', 
+                    src:  'https://www.dropbox.com/s/x5dscu0eehllk1p/L-web.jpeg', 
                     width: 4,
                     height: 6
                 },
                 {
                     // Yokohama Landmark
-                    src:  'https://www.dropbox.com/s/6vpwl0y9r4ep14y/landmark.jpg', 
+                    src:  'https://www.dropbox.com/s/4hogu9wdd8u406i/landmark-web.jpeg', 
                     width: 4,
                     height: 6
                 },
                 {
                     // Largs Coast
-                    src:  'https://www.dropbox.com/s/zvfgggd3h07q60m/Largs.jpg', 
+                    src:  'https://www.dropbox.com/s/dl3rgghvp4ux939/Largs-web.jpeg', 
                     width: 6,
                     height: 4
                 },
                 {
                     // Nahant Beach
-                    src:  'https://www.dropbox.com/s/jrpd8643x32ctyg/Nahant.jpg', 
+                    src:  'https://www.dropbox.com/s/aeiopx6nr7mpeqh/Nahant-web.jpeg', 
                     width: 4,
                     height:3
                 },
                 {
                     // PARCO Neon
-                    src:  'https://www.dropbox.com/s/ywoymqkiiv4nv95/parco%20neon.jpg', 
+                    src:  'https://www.dropbox.com/s/5zkoqcxovpj6ivb/parco-web.jpeg', 
                     width: 4,
                     height: 6
                 },
                 {
                     // Zurich Station
-                    src:'https://www.dropbox.com/s/6zo1wzyuz5unyol/zurichcentralstation.jpeg',
+                    src:'https://www.dropbox.com/s/7xhyo7ad6daq47p/zurichcentralstation-web.jpeg',
                     width: 16,
                     height: 9
                 },
                 {
                     // Les Invalides
-                    src: 'https://www.dropbox.com/s/3kynun26h3hi4f2/lesinvalides.jpg',
+                    src: 'https://www.dropbox.com/s/doixbowruv0qf8w/lesinvalides-web.jpeg',
                     width: 3,
                     height: 4
                 },
                 {
                     // Venetian Lamp
-                    src: 'https://www.dropbox.com/s/x11169l3jgyfmnk/venetianlamp.jpeg',
+                    src: 'https://www.dropbox.com/s/uot21gmjjswu8jt/venetianlamp-web.jpeg',
                     width: 9,
                     height: 16
                 },
                 {
                     // Under Neon Lights
-                    src: 'https://www.dropbox.com/s/89i06ahwpnkio95/underneonlights.jpeg',
+                    src: 'https://www.dropbox.com/s/decbem6i430hh5b/underneonlights-web.jpeg',
                     width: 2048,
                     height: 938
                 },
                 {
                     // River Seine
-                    src: 'https://www.dropbox.com/s/nqsivyok86c2mvv/riverseine.jpg',
+                    src: 'https://www.dropbox.com/s/xsjuf9gdwf85hb4/seine-web.jpeg',
+                    width: 4,
+                    height: 3
+                },
+                {
+                    // Sunset
+                    src: 'https://www.dropbox.com/s/lvo3942ciezejbv/sunset-web.jpeg',
                     width: 4,
                     height: 3
                 },
                 {
                     // Eiffel Tower
-                    src: 'https://www.dropbox.com/s/o0d67ntrfyukvod/eiffeltower.jpg',
+                    src: 'https://www.dropbox.com/s/e1cqdgx400qrvfu/eiffeltower-web.jpeg',
                     width: 4,
                     height: 3
                 },
                 {
                     // Culzean Castle
-                    src: 'https://www.dropbox.com/s/516v5792q50qmwi/culzeancastle.jpeg',
+                    src: 'https://www.dropbox.com/s/y2uw7rqzejx27em/culzeancastle-web.jpeg',
                     width: 4,
                     height: 3
                 },
                 {
                     // Barcelona Metro
-                    src: 'https://www.dropbox.com/s/f1vcvrg2o8u36hk/barcametro.jpeg',
+                    src: 'https://www.dropbox.com/s/vfzjh0u20wvuff9/barcametro-web.jpeg',
                     width: 16,
                     height: 9
                 },
                 {
                     // Waco Steel Bridge
-                    src: 'https://www.dropbox.com/s/gzk0krjdz24gitz/wacobridge.jpg',
+                    src: 'https://www.dropbox.com/s/jpzx5qezz7x3hi2/wacobridge-web.jpeg',
                     width: 4,
                     height: 3
                 },
                 {
                     // Travelling Robot
-                    src: 'https://www.dropbox.com/s/ojdja03rzkp9cny/travellingrobot.jpeg',
+                    src: 'https://www.dropbox.com/s/x8clx1ln9tq6oyo/travellingrobot-web.jpeg',
                     width: 3,
                     height: 4
                 },
                 {
                     // Rocky Shores
-                    src: 'https://www.dropbox.com/s/ahzfky46u833r66/rockyshores.jpeg',
+                    src: 'https://www.dropbox.com/s/bk39z2t867dq87n/rockyshores-web.jpeg',
                     width: 4,
                     height: 3
                 },
                 {
                     // Bath Street
-                    src: 'https://www.dropbox.com/s/e09wxo1hwb1e70o/bathstreet.jpg',
+                    src: 'https://www.dropbox.com/s/wus6t9vhao0m70e/bath-web.jpeg',
                     width: 4,
                     height: 3
                 },
                 {
                     // Abandoned Warehouse
-                    src: 'https://www.dropbox.com/s/j9myofha8in287y/abandonedwarehouse.jpg',
+                    src: 'https://www.dropbox.com/s/z9fqsg9u5lawg2k/abandonedwarehouse-web.jpeg',
                     width: 16,
                     height: 9
                 },
                 {
                     // Appalachians
-                    src: 'https://www.dropbox.com/s/qxlpfcgwj5kxuue/appalachians.jpeg',
+                    src: 'https://www.dropbox.com/s/ng5mttzotm4j73k/appalachians-web.jpeg',
                     width: 16,
                     height: 9
                 },
                 {
                     // Brooklyn Bridge
-                    src: 'https://www.dropbox.com/s/ilmqwjfspnuzzh3/brooklynbridge.jpg',
+                    src: 'https://www.dropbox.com/s/r2tx9es5ttg4wym/brooklynbdridge-web.jpeg',
                     width: 3,
                     height: 4
                 },
@@ -408,57 +420,63 @@ function WorkContents(props){
                 },
                 {
                     // Institut de France
-                    src: 'https://www.dropbox.com/s/2ffgxm5ypr3sdjd/institutdefrance.jpg',
+                    src: 'https://www.dropbox.com/s/pijzh0l5hakv459/institutdefrance-web.jpeg',
                     width: 4,
                     height: 3
                 },
                 {
                     // Golden Gate
-                    src: 'https://www.dropbox.com/s/9gnxt84b1ezs1a9/goldengate.jpeg',
+                    src: 'https://www.dropbox.com/s/sjrx5emc8jub9bn/goldengate-web.jpeg',
                     width: 9,
                     height: 16
                 },
                 {
                     // Land's End
-                    src:'https://www.dropbox.com/s/34c70hh9apwy155/landsend.jpeg',
+                    src:'https://www.dropbox.com/s/vbxfz8z5zm2x9gp/landsend-web.jpeg',
                     width: 16,
                     height: 9
                 },
                 {
                     // Needle
-                    src: 'https://www.dropbox.com/s/vt4u2a3qx1e0m5v/needle.jpeg',
+                    src: 'https://www.dropbox.com/s/fihbsw8g75mim2p/needle-web.jpeg',
                     width: 9,
                     height: 16
                 },
                 {
                     // Nijo
-                    src: 'https://www.dropbox.com/s/w3bjwmt2cdk8yay/nijo.jpeg',
+                    src: 'https://www.dropbox.com/s/5lyrdnooszt49hw/nijo-web.jpeg',
                     width: 4,
                     height: 3
                 },
                 {
                     // Orange Line
-                    src: 'https://www.dropbox.com/s/1pzte87v050q7n8/orangeline.jpeg',
+                    src: 'https://www.dropbox.com/s/z4rhpcqsskoub8k/orangeline-web.jpeg',
                     width: 9,
                     height: 16
                 },
                 {
                     // Senso-ji
-                    src: 'https://www.dropbox.com/s/maoejoprld6e3g6/senso-ji.jpeg',
+                    src: 'https://www.dropbox.com/s/if7mzx0azl5lwim/senso-ji-web.jpeg',
                     width: 3,
                     height: 4
                 },
                 {
                     // Zephyr
-                    src: 'https://www.dropbox.com/s/ct4buch44t3bhln/zephyr.jpeg',
+                    src: 'https://www.dropbox.com/s/i3arhlwaj8a6k26/zephyr-web.jpeg',
                     width: 16,
                     height: 9
                 },
                 {
                     // Amsterdam
-                    src: 'https://www.dropbox.com/s/h2usdwnczhqjgu4/ams.jpeg',
+                    src: 'https://www.dropbox.com/s/jhpj23o4tfmkuti/ams-web.jpeg',
                     width: 3,
                     height: 4
+                },
+                {
+                    // Avon River
+                    src: 'https://www.dropbox.com/s/wzfxqedzzsp89at/riveravon-web.jpeg',
+                    width: 4,
+                    height: 3
                 }
             ]                      
         },
