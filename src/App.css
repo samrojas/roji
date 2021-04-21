@@ -5,6 +5,8 @@
   max-width: 100%;
 }
 
+/* === HEADER === */
+
 header {
   width: 100%;
   min-height: 10vh;
@@ -27,15 +29,12 @@ header button {
   font-size: 20px;
 }
 
-/* Header Logo Style */
-
 .logo{
   padding-left: 25px;
   width: 65px;
   height: 40px;
 }
 
-/* ======= */
 p {
   font-family: Tofino;
 }
@@ -64,7 +63,7 @@ button p:hover{
   color: #FFFFFF;
 }
 /* === FOOTER === */
-
+/* 
 .fixed-footer {
   border-top: 1px solid #9E2a2a;
   position: fixed;
@@ -85,15 +84,16 @@ button p:hover{
 .fixed-footer p{
   margin:  0px;
   padding-left: 35px;
-}
+} */
 
 
 /* Reset CSS */
+
 html {
 overflow-y: scroll;
 }
 
-/* Font Information */
+/* === Font Information === */
 
 @font-face {
   font-family: "Tofino";
@@ -107,6 +107,8 @@ overflow-y: scroll;
   src: url("./styles/Fonts/Roji-Sans.woff")
 }
 
+/* === WORK PAGE === */
+
 .work{
   display: flex;
   min-height: 100vh;
@@ -114,8 +116,6 @@ overflow-y: scroll;
   position: relative;
   z-index: 0;
 }
-
-/* === GALLERY === */
 
 .filter{
   font-family: Tofino;
@@ -167,7 +167,27 @@ li{
   z-index: -1;
 }
 
-/* === ABOUT === */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* === ABOUT PAGE === */
 
 .about{
   display: flex;
@@ -238,6 +258,9 @@ li{
   
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
+
+  /* -- MOBILE HEADER -- */
+
   header {
     width: 100vw;
     min-height: 10vh;
@@ -258,6 +281,32 @@ li{
     width: 18vw;
     height: auto;
   }
+
+    /* -- MOBILE FOOTER -- */
+
+  /* .fixed-footer p{
+    margin:  1px;
+    padding-left: 10px;
+  }
+
+  .fixed-footer {
+    border-top: 1px solid #9E2a2a;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 20px;
+    background-color: white;
+    color: #9E2a2a;
+    text-align: left;
+    font-size: 12px;
+    text-indent: 2px;
+    font-family: Tofino;
+    font-weight: normal;
+    z-index: 1;
+  } */
+
+    /* -- MOBILE WORK PAGE -- */
 
   .masonry{
       position: relative;
@@ -291,27 +340,7 @@ li{
     z-index: 0;
   }
 
-  .fixed-footer p{
-    margin:  1px;
-    padding-left: 10px;
-  }
-
-  .fixed-footer {
-    border-top: 1px solid #9E2a2a;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    height: 20px;
-    background-color: white;
-    color: #9E2a2a;
-    text-align: left;
-    font-size: 12px;
-    text-indent: 2px;
-    font-family: Tofino;
-    font-weight: normal;
-    z-index: 1;
-  }
+  /* -- MOBILE ABOUT PAGE -- */
 
   .paragraph-container{
     height: 60vh;

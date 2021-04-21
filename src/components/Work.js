@@ -1,6 +1,9 @@
 import { useState } from "react"
 import Gallery from 'react-photo-gallery'
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
 function Filters(props){
     const [filters, setFilters] = useState(
         [
