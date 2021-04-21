@@ -1,6 +1,3 @@
-import rojibg from '../img/roji-bg-web.jpg'
-
-
 function About(){    
     return(
                 
