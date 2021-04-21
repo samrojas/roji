@@ -73,7 +73,7 @@ button p:hover{
   width: 100vw;
   height: 20px;
   background-color: white;
-  color: #DA2A2B;
+  color: #9E2a2a;
   text-align: left;
   font-size: 12px;
   text-indent: 2px;
@@ -124,7 +124,7 @@ overflow-y: scroll;
   width: 13px;
   position: relative;
   padding: 1px;
-  font-size: 12px;
+  font-size: 14px;
   color: #130000;
 }
 
@@ -207,9 +207,9 @@ li{
 }
 
 .paragraph a:hover{
-  background-color: #DA2A2B;
-  opacity: 20%;
-  color: #130000;
+  background-color: #E25959;
+  color: white;
+  text-decoration-style: dashed;
 }
 
 .about-pic{
@@ -294,14 +294,14 @@ li{
   }
 
   .fixed-footer {
-    border-top: 2px solid #9E2a2a;
+    border-top: 1px solid #9E2a2a;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100vw;
     height: 20px;
     background-color: white;
-    color: #DA2A2B;
+    color: #9E2a2a;
     text-align: left;
     font-size: 12px;
     text-indent: 2px;

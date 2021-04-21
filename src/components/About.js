@@ -1,3 +1,6 @@
+import rojibg from '../img/roji-bg-web.jpg'
+
+
 function About(){    
     return(
                 
@@ -13,7 +16,7 @@ function About(){
                 <p>
                     Throughout time, people have used the sum of their blended experiences to forge something new through whatever medium they choose. 
                     <br></br><br></br>
-                    Driven by a fear of the unknown future, many <i>create</i> to define that unknown for themselves with their own works.
+                    Driven by a fear of the unknown future, many <i>create</i> to define that unknown for themselves with their own work.
                     <br></br><br></br>
                     In that same spirit, this website exists as the home for creations crafted by <b>Sam Rojas</b>. 
                 </p>
@@ -21,32 +24,41 @@ function About(){
                 <br></br>
                 <hr></hr>
                 <br></br>
-                <p><b>Connect via</b>
+                <p><b>Connect</b>
+                    <br></br>
+                    <i>via</i>
                     <br></br>
                     <a href='mailto:samrojas95@gmail.com'>Email</a>
                     <br></br>
-                    <a href='https://open.spotify.com/user/12147008411?si=6f9e36e5eee04e7d'>Spotify</a>
+                    <a href='https://www.last.fm/user/rojiroji' target="_blank">Last.fm</a>
                     <br></br>
-                    <a href='https://letterboxd.com/rojiroji/'>Letterboxd</a>
+                    <a href='https://letterboxd.com/rojiroji/' target="_blank">Letterboxd</a>
+                    <br></br>
+                    <a href='https://open.spotify.com/user/12147008411?si=6f9e36e5eee04e7d' target="_blank">Spotify</a>
                 </p>
 
                 <br></br>
 
-                <p><b>Webring <i>(no website should be a dead-end)</i></b>
+                <p><b>Web-ring</b>
                     <br></br>
-                    <a href='https://theuselessweb.com/'>The Useless Web</a>
+                    <i>no website should be a dead-end</i>
                     <br></br>
-                    <a href='https://808303.studio/'>Roland 808303 Studio</a>
+                    <a href='http://hiroshinagai.com/' target="_blank">Art by Hiroshi Nagai</a>
+
                     <br></br>
-                    <a href='https://everynoise.com/engenremap.html'>Every Noise at Once</a>
+                    <a href='https://everynoise.com/engenremap.html' target="_blank">Every Noise at Once</a>
                     <br></br>
-                    <a href='https://orb.farm/'>Orb.Farm</a>
+                    <a href='https://orb.farm/' target="_blank">Orb.Farm</a>
                     <br></br>
-                    <a href='https://www.strandbeest.com/'>Strandbeest</a>
+                    <a href='https://poolside.fm/' target="_blank">Poolside.fm</a>
                     <br></br>
-                    <a href='http://hiroshinagai.com/'>Art by Hiroshi Nagai</a>
+                    <a href='https://808303.studio/' target="_blank">Roland 808303 Studio</a>
                     <br></br>
-                    <a href='https://poolside.fm/'>Poolside.fm</a>
+                    <a href='https://www.strandbeest.com/' target="_blank">Strandbeest</a>
+                    <br></br>
+                    <a href='https://theuselessweb.com/' target="_blank">The Useless Web</a>
+                    <br></br>
+                    <a href='https://yyyyyyy.info/' target="_blank">yyyyyyy.info</a>
                 </p>
                 <br></br>
                 <hr></hr>
@@ -61,7 +73,6 @@ function About(){
             </div>
        </div>
     </div>
-  
     )
 }
 
