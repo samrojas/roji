@@ -88,7 +88,7 @@ button p:hover{
 
 .fixed-footer p{
   margin:  1px;
-  padding-left: 20px;
+  padding-left: 35px;
 }
 
 
@@ -191,25 +191,32 @@ li{
 
 .about{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:left;
   border: 1px solid none;
   height: 60vh;
 }
 
 .paragraph-container{
   height: 60vh;
-
-  border: 1px solid none;
+  border: 1px solid black;
+  width: 60vw;
+  align-self: flex-start;
+  padding: 30px;
 }
 
 .paragraph{
-  border: 1px solid none;
+  border: 1px solid black;
 }
+
+.paragraph p{
+  font-size: 12px;
+}
+
 .about-pic{
   border: 1px solid none;
   background-image: url("./img/ROJI@3x.png");
 }
+
 /*
 body{
   z-index: 80;

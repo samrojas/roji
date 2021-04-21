@@ -95,12 +95,6 @@ function WorkContents(props){
                 height: 1
             },
             {
-                // ALDA Gaming Logo
-                src: "https://www.dropbox.com/s/uy3ltp1ahlt2kqo/aldagaming-web.png",
-                width: 6,
-                height: 4
-            },
-            {
                 // Clicky_D Logo
                 src: 'https://www.dropbox.com/s/urnpv71udp9w8yp/clickyd-web2.gif',
                 width: 4,
@@ -113,16 +107,22 @@ function WorkContents(props){
                 height: 1
             },
             {
-                // On the Brink Logo
-                src: 'https://www.dropbox.com/s/ibgmpm49i7e6phr/onthebrink-web.gif',
-                width: 16,
-                height: 9
+                // ALDA Gaming Logo
+                src: "https://www.dropbox.com/s/uy3ltp1ahlt2kqo/aldagaming-web.png",
+                width: 6,
+                height: 4
             },
             {
                 // Hops of Hollow Logo
                 src:  'https://www.dropbox.com/s/ldgr9mjvhqqz8k1/HOH-web.png', 
                 width: 1,
                 height: 1
+            },
+            {
+                // On the Brink Logo
+                src: 'https://www.dropbox.com/s/ibgmpm49i7e6phr/onthebrink-web.gif',
+                width: 16,
+                height: 9
             },
             {
                 // JSidney Logo
@@ -185,16 +185,16 @@ function WorkContents(props){
                     height: 9
                 },
                 {
-                    // The Lost Summer - Title Card
-                    src:  'https://www.dropbox.com/s/0naayr6ogcreu9i/TLS-TitleCard.png', 
-                    width: 4,
-                    height: 3
-                },
-                {
                     // Wizard Weekend 3.0
                     src: 'https://www.dropbox.com/s/esrz5nytie64eki/ani3.0.gif',
                     width: 1,
                     height: 1
+                },
+                {
+                    // The Lost Summer - Title Card
+                    src:  'https://www.dropbox.com/s/0naayr6ogcreu9i/TLS-TitleCard.png', 
+                    width: 4,
+                    height: 3
                 },
                 {
                     // Island City - Playlist Cover
@@ -305,28 +305,28 @@ function WorkContents(props){
                     height: 4
                 },
                 {
-                    // Nahant Beach
-                    src:  'https://www.dropbox.com/s/aeiopx6nr7mpeqh/Nahant-web.jpeg', 
-                    width: 4,
-                    height:3
-                },
-                {
                     // PARCO Neon
                     src:  'https://www.dropbox.com/s/5zkoqcxovpj6ivb/parco-web.jpeg', 
                     width: 4,
                     height: 6
                 },
                 {
-                    // Zurich Station
-                    src:'https://www.dropbox.com/s/7xhyo7ad6daq47p/zurichcentralstation-web.jpeg',
-                    width: 16,
-                    height: 9
+                    // Nahant Beach
+                    src:  'https://www.dropbox.com/s/aeiopx6nr7mpeqh/Nahant-web.jpeg', 
+                    width: 4,
+                    height:3
                 },
                 {
                     // Les Invalides
                     src: 'https://www.dropbox.com/s/doixbowruv0qf8w/lesinvalides-web.jpeg',
                     width: 3,
                     height: 4
+                },
+                {
+                    // Zurich Station
+                    src:'https://www.dropbox.com/s/7xhyo7ad6daq47p/zurichcentralstation-web.jpeg',
+                    width: 16,
+                    height: 9
                 },
                 {
                     // Venetian Lamp
@@ -341,10 +341,22 @@ function WorkContents(props){
                     height: 938
                 },
                 {
+                    // Needle
+                    src: 'https://www.dropbox.com/s/fihbsw8g75mim2p/needle-web.jpeg',
+                    width: 9,
+                    height: 16
+                },
+                {
                     // River Seine
                     src: 'https://www.dropbox.com/s/xsjuf9gdwf85hb4/seine-web.jpeg',
                     width: 4,
                     height: 3
+                },
+                {
+                    // Travelling Robot
+                    src: 'https://www.dropbox.com/s/x8clx1ln9tq6oyo/travellingrobot-web.jpeg',
+                    width: 3,
+                    height: 4
                 },
                 {
                     // Sunset
@@ -375,12 +387,6 @@ function WorkContents(props){
                     src: 'https://www.dropbox.com/s/jpzx5qezz7x3hi2/wacobridge-web.jpeg',
                     width: 4,
                     height: 3
-                },
-                {
-                    // Travelling Robot
-                    src: 'https://www.dropbox.com/s/x8clx1ln9tq6oyo/travellingrobot-web.jpeg',
-                    width: 3,
-                    height: 4
                 },
                 {
                     // Rocky Shores
@@ -436,12 +442,7 @@ function WorkContents(props){
                     width: 16,
                     height: 9
                 },
-                {
-                    // Needle
-                    src: 'https://www.dropbox.com/s/fihbsw8g75mim2p/needle-web.jpeg',
-                    width: 9,
-                    height: 16
-                },
+
                 {
                     // Nijo
                     src: 'https://www.dropbox.com/s/5lyrdnooszt49hw/nijo-web.jpeg',
@@ -550,7 +551,7 @@ function WorkContents(props){
     console.log(content)
     return(
         <div className='masonry'>
-            <Gallery margin={10} photos={content} /> 
+            <Gallery margin={5} photos={content} /> 
         </div>
     )
 }
