@@ -245,12 +245,6 @@ function WorkContents(props){
             filter: "drawing",
             imgs: [
                 {
-                    // Koala
-                    src:  'https://www.dropbox.com/s/n2j81p4zb15vhbf/Koalad.png', 
-                    width: 3,
-                    height: 3
-                },
-                {
                     // Shibi
                     src:  'https://www.dropbox.com/s/5detwsemksusc60/Shibi.png', 
                     width: 4,
