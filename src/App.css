@@ -66,7 +66,7 @@ button p:hover{
 /* === FOOTER === */
 
 .fixed-footer {
-  border-top: 2px solid #9E2a2a;
+  border-top: 1px solid #9E2a2a;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -101,6 +101,12 @@ overflow-y: scroll;
   src: url("./styles/Fonts/TofinoPersonal-Regular.woff");
 }
 
+@font-face{
+  font-family: "ROJI-SANS";
+  font-weight: normal;
+  src: url("./styles/Fonts/Roji-Sans.woff")
+}
+
 .work{
   display: flex;
   min-height: 100vh;
@@ -118,7 +124,8 @@ overflow-y: scroll;
   width: 13px;
   position: relative;
   padding: 2px;
-
+  font-size: 14px;
+  color: #130000;
 }
 
 li{
@@ -187,15 +194,33 @@ li{
   justify-content: space-around;
 }
 
+.paragraph b{
+  color:#9E2a2a;
+}
+
+.paragraph a{
+  font-size: 11px;
+  color: gray;
+  text-decoration: underline;
+  text-decoration-color: #130000;
+  text-decoration-style: solid;
+}
+
+.paragraph a:hover{
+  background-color: #DA2A2B;
+  opacity: 20%;
+  color: #130000;
+}
+
 .about-pic{
   border: 1px solid none;
   background-image: url("./img/ROJI@3x.png");
 }
 
 .ROJI-logotype p{
-  font-family: Roji-Sans;
-  font-size: 200px;
-  letter-spacing: -.06rem;
+  font-family: ROJI-SANS;
+  font-size: 20px;
+  letter-spacing: -.10rem;
   color:#9E2a2a;
 }
 
@@ -224,6 +249,13 @@ li{
     height: auto;
   }
 
+  .ROJI-logotype p{
+    font-family: ROJI-SANS;
+    font-size: 60px;
+    letter-spacing: -.10rem;
+    color:#9E2a2a;
+  }
+
   .masonry{
       position: relative;
       margin-left: 120px;
@@ -245,7 +277,7 @@ li{
     position: relative;
     padding: 2px;
     background-color: white;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .list-container {
