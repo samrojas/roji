@@ -40,7 +40,7 @@ function Header(props){
     return(
         <header className="header">
 
-            <img onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)} className="logo" src={hover ? LogoWhite : Logo} alt="logo"/>
+            <img className="logo" src={LogoWhite} alt="roji logo"/>
             
             <div className='button-container'>
                 {buttons.map(x => {

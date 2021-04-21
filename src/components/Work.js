@@ -18,11 +18,7 @@ function Filters(props){
              },
              {
                 class: "filter",
-                text: "Illustrations"
-            },
-            {
-                class: "filter",
-                text: "Models"
+                text: "Drawing"
             },
              {
                  class: "filter ",
@@ -36,6 +32,10 @@ function Filters(props){
                  class: "filter",
                  text: "Video"
              },
+             {
+                class: "filter",
+                text: "3D Modeling"
+             }
              
          ]
     )
@@ -236,7 +236,7 @@ function WorkContents(props){
         },
 
         {
-            filter: "illustrations",
+            filter: "drawing",
             imgs: [
                 {
                     // Koala
@@ -257,24 +257,6 @@ function WorkContents(props){
                     height: 4
                 }
             ]
-        },
-
-        {
-            filter:"models",
-            imgs: [
-                {
-                    // Coudaltia: KIX Portable Calcutron
-                    src:  'https://www.dropbox.com/s/5hmzrfwjjq55olv/kix_portable_calcatron-web.gif', 
-                    width: 16,
-                    height: 9
-                },
-                {
-                    // Coudaltia: ZUI 00 Spacecraft
-                    src:   'https://www.dropbox.com/s/a0s7xjuu4igb001/zui_00-web.gif', 
-                    width: 16,
-                    height: 9
-                },
-            ]            
         },
 
         {
@@ -535,6 +517,24 @@ function WorkContents(props){
                 
             ]
         },
+
+        {
+            filter:"3d modeling",
+            imgs: [
+                {
+                    // Coudaltia: KIX Portable Calcutron
+                    src:  'https://www.dropbox.com/s/5hmzrfwjjq55olv/kix_portable_calcatron-web.gif', 
+                    width: 16,
+                    height: 9
+                },
+                {
+                    // Coudaltia: ZUI 00 Spacecraft
+                    src:   'https://www.dropbox.com/s/a0s7xjuu4igb001/zui_00-web.gif', 
+                    width: 16,
+                    height: 9
+                },
+            ]            
+        }
     ]
 
     let content = []
@@ -551,7 +551,7 @@ function WorkContents(props){
     console.log(content)
     return(
         <div className='masonry'>
-            <Gallery margin={5} photos={content} /> 
+            <Gallery margin={5} photos={content} direction={"column"}/> 
         </div>
     )
 }
