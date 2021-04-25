@@ -255,6 +255,12 @@ function WorkContents(props){
                     src: 'https://www.dropbox.com/s/5dkf0zsbdjf908z/yesha-web.png',
                     width: 5,
                     height: 4
+                },
+                {
+                    //Tashi
+                    src: 'https://www.dropbox.com/s/3xdpjbburk72hmk/Tashi-edit.jpg',
+                    width: 5,
+                    height: 4
                 }
             ]
         },
