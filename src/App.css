@@ -1,67 +1,67 @@
-* { 
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 /* === HEADER === */
 
 header {
-  width: 100%;
-  min-height: 10vh;
-  background-color: #9E2a2a;
-  display: flex;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  padding: 15px;
-  box-shadow: 0px 1px 4px #130000;
+    width: 100%;
+    min-height: 10vh;
+    background-color: #9e2a2a;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 15px;
+    box-shadow: 0px 1px 4px #130000;
 }
 
 header button {
-  color:#DA2A2B;
-  background-color: transparent;
-  border: none;
-  padding: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 20px;
+    color: #da2a2b;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
 }
 
-.logo{
-  padding-left: 25px;
-  width: 65px;
-  height: 40px;
+.logo {
+    padding-left: 25px;
+    width: 65px;
+    height: 40px;
 }
 
 p {
-  font-family: Tofino;
+    font-family: Tofino;
 }
 
-button p{
-  font-size: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
+button p {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-button p:hover{
-  transition-duration: 0.1s;
-  cursor: pointer;
-  color: #FFFFFF;
+button p:hover {
+    transition-duration: 0.1s;
+    cursor: pointer;
+    color: #ffffff;
 }
 
 .button-container {
-  width: auto; 
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  padding-left: 5px;
-  padding-right: 5px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.button-selected{
-  color: #FFFFFF;
+.button-selected {
+    color: #ffffff;
 }
 /* === FOOTER === */
 /* 
@@ -87,205 +87,229 @@ button p:hover{
   padding-left: 35px;
 } */
 
-
 /* Reset CSS */
 
 html {
-overflow-y: scroll;
+    overflow-y: scroll;
 }
 
 /* === Font Information === */
 
 @font-face {
-  font-family: "Tofino";
-  font-weight: normal;
-  src: url("./styles/Fonts/TofinoPersonal-Regular.woff");
+    font-family: "Tofino";
+    font-weight: normal;
+    src: url("./styles/Fonts/TofinoPersonal-Regular.woff");
 }
 
-@font-face{
-  font-family: "ROJI-SANS";
-  font-weight: normal;
-  src: url("./styles/Fonts/Roji-Sans.woff")
+@font-face {
+    font-family: "ROJI-SANS";
+    font-weight: normal;
+    src: url("./styles/Fonts/Roji-Sans.woff");
 }
 
 /* === WORK PAGE === */
 
-.work{
-  display: flex;
-  min-height: 100vh;
-  width: 100vw;
-  position: relative;
-  z-index: 0;
+.work {
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
 }
 
-.filter{
-  font-family: Tofino;
-  text-decoration: none;
-  height: 10px;
-  width: 13px;
-  position: relative;
-  padding: 1px;
-  font-size: 14px;
-  color: #130000;
+.filters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-li{
-  margin: 10px;
+.toTop {
+    position: fixed;
+    bottom: 0;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    transition-duration: 0.4s;
 }
 
+.toTop:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.filter {
+    font-family: Tofino;
+    text-decoration: none;
+    height: 10px;
+    width: 13px;
+    position: relative;
+    padding: 1px;
+    font-size: 14px;
+    color: #130000;
+}
+
+li {
+    margin: 10px;
+}
+
+.list {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
 .filter:hover {
-  cursor: pointer;
-  color: #9E2A2A;
+    cursor: pointer;
+    color: #9e2a2a;
 }
 .selected {
-  color: #9E2A2A;
-  list-style: circle;
+    color: #9e2a2a;
+    list-style: circle;
 
-  /* color:#fff; */
+    /* color:#fff; */
 }
 .list-container {
-  padding: 30px;
-  list-style-type: none;
-  position: fixed;
-  left: 0;
-  z-index: 0;
+    padding: 30px;
+    list-style-type: none;
+    position: fixed;
+    left: 0;
+    z-index: 0;
 }
 
-.portfolio-wrapper{
-  margin: auto;
+.portfolio-wrapper {
+    margin: auto;
 }
 
-.masonry{
-  position: relative;
-  margin-top: 4px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 200px;
-  border: 2px solid white;
-  border-top: none;
-  min-height: 100vh;
-  width: 100vw;
-  z-index: -1;
+.masonry {
+    position: relative;
+    margin-top: 4px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    border: 2px solid white;
+    border-top: none;
+    min-height: 100vh;
+    width: 100vw;
+    z-index: -1;
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #555; /* Add a dark-grey background on hover */
 }
 
 /* === ABOUT PAGE === */
 
-.about{
-  display: flex;
-  justify-content:left;
-  position: fixed;
-  height: 100%;
-  background-image: url("./img/roji-bg-web.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-blend-mode:screen;
+.about {
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    height: 100%;
+    background-image: url("./img/roji-bg-web.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: screen;
 }
 
-.paragraph-container{
-  position: relative;
-  height: 100%;
-  width: 100vw;
-  align-self: flex-start;
-  padding: 40px;
+.paragraph-container {
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    align-self: flex-start;
+    padding: 40px;
 }
 
-.paragraph hr{
-  background-color:#9E2a2a;
-  border: none;
-  height: 1px;
+.paragraph hr {
+    background-color: #9e2a2a;
+    border: none;
+    height: 1px;
 }
 
-.paragraph p{
-  font-size: 12px;
-  justify-content: space-around;
+.paragraph p {
+    font-size: 12px;
+    justify-content: space-around;
 }
 
-.paragraph b{
-  color:#9E2a2a;
+.paragraph b {
+    color: #9e2a2a;
 }
 
-.paragraph a{
-  font-size: 11px;
-  color: gray;
-  text-decoration: underline;
-  text-decoration-color: #130000;
-  text-decoration-style: solid;
+.paragraph a {
+    font-size: 11px;
+    color: gray;
+    text-decoration: underline;
+    text-decoration-color: #130000;
+    text-decoration-style: solid;
 }
 
-.paragraph a:hover{
-  background-color: #E25959;
-  color: white;
-  text-decoration-style: dashed;
+.paragraph a:hover {
+    background-color: #e25959;
+    color: white;
+    text-decoration-style: dashed;
 }
 
-.about-pic{
-  border: 1px solid none;
-  background-image: url("./img/ROJI@3x.png");
+.about-pic {
+    border: 1px solid none;
+    background-image: url("./img/ROJI@3x.png");
 }
 
-.ROJI-logotype p{
-  font-family: ROJI-SANS;
-  font-size: 20px;
-  letter-spacing: -.10rem;
-  color:#9E2a2a;
+.ROJI-logotype p {
+    font-family: ROJI-SANS;
+    font-size: 20px;
+    letter-spacing: -0.1rem;
+    color: #9e2a2a;
 }
 
-.paragraph img{
-  width: 45px;
+.paragraph img {
+    width: 45px;
 }
 
 /* === RESPONSIVE INTERVENTIONS === */
-  
+
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
+    /* -- MOBILE HEADER -- */
 
-  /* -- MOBILE HEADER -- */
+    header {
+        width: 100vw;
+        min-height: 10vh;
+        background-color: #9e2a2a;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        padding: 15px;
+        padding-left: 0px;
+    }
 
-  header {
-    width: 100vw;
-    min-height: 10vh;
-    background-color: #9E2a2a;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    padding: 15px;
-    padding-left: 0px;
-  }
-
-  .logo{
-    padding-left: 14px;
-    padding-right: 10px;
-    width: 18vw;
-    height: auto;
-  }
+    .logo {
+        padding-left: 14px;
+        padding-right: 10px;
+        width: 18vw;
+        height: auto;
+    }
 
     /* -- MOBILE FOOTER -- */
 
-  /* .fixed-footer p{
+    /* .fixed-footer p{
     margin:  1px;
     padding-left: 10px;
   }
@@ -309,49 +333,48 @@ li{
 
     /* -- MOBILE WORK PAGE -- */
 
-  .masonry{
-      position: relative;
-      margin-left: 120px;
-      margin-right: auto;
-      margin-bottom: 100px;
-      border: 2px solid transparent;
-      border-top: none;
-      min-height: 100vh;
-      width: 70vw;
-      z-index: -1;
+    .masonry {
+        position: relative;
+        margin-left: 120px;
+        margin-right: auto;
+        margin-bottom: 100px;
+        border: 2px solid transparent;
+        border-top: none;
+        min-height: 100vh;
+        width: 70vw;
+        z-index: -1;
+    }
 
-  }
+    .filter {
+        font-family: Tofino;
+        text-decoration: none;
+        height: 10px;
+        width: 13px;
+        position: relative;
+        padding: 2px;
+        background-color: white;
+        font-size: 16px;
+    }
 
-  .filter{
-    font-family: Tofino;
-    text-decoration: none;
-    height: 10px;
-    width: 13px;
-    position: relative;
-    padding: 2px;
-    background-color: white;
-    font-size: 16px;
-  }
+    .list-container {
+        padding: 0px;
+        list-style-type: none;
+        position: fixed;
+        left: 0;
+        z-index: 0;
+    }
 
-  .list-container {
-    padding: 0px;
-    list-style-type: none;
-    position: fixed;
-    left: 0;
-    z-index: 0;
-  }
+    /* -- MOBILE ABOUT PAGE -- */
 
-  /* -- MOBILE ABOUT PAGE -- */
+    .paragraph-container {
+        height: 60vh;
+        width: 100vw;
+        align-self: flex-start;
+        padding: 13px;
+    }
 
-  .paragraph-container{
-    height: 60vh;
-    width: 100vw;
-    align-self: flex-start;
-    padding: 13px;
-  }  
-
-  .paragraph p{
-    font-size: 14px;
-    text-align:left;
-  }
+    .paragraph p {
+        font-size: 14px;
+        text-align: left;
+    }
 }
