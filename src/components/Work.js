@@ -580,7 +580,7 @@ function Work() {
                     offset={-150}
                     className="toTop"
                 >
-                    <p>To Top ^</p>
+                    <img src="./img/rojiscrolltop.png"></img>
                 </Link>
             </div>
             <WorkContents selected={selected} />
