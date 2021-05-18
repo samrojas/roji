@@ -158,16 +158,19 @@ li {
     display: flex;
     flex-direction: column;
 }
+
 .filter:hover {
     cursor: pointer;
     color: #9e2a2a;
 }
+
 .selected {
     color: #9e2a2a;
     list-style: circle;
 
     /* color:#fff; */
 }
+
 .list-container {
     padding: 30px;
     list-style-type: none;
@@ -213,6 +216,13 @@ li {
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
+.picture {
+    transition-duration: 0.4s;
+}
+.picture:hover {
+    /* outline: 2px solid #06befa; */
+    box-shadow: 1px 1px 34px 7px rgba(0, 0, 0, 0.75);
+}
 /* === ABOUT PAGE === */
 
 .about {
@@ -280,6 +290,39 @@ li {
     width: 45px;
 }
 
+.project {
+    width: 80vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-photos {
+    width: 40vw;
+    border: 2px solid purple;
+}
+
+.project-img {
+    margin: 20px;
+    border: 2px solid blue;
+}
+
+.project-info {
+    width: 40vw;
+    margin: 20px;
+    border: 2px solid blue;
+}
+
+.project-paragraph {
+    margin-top: 20px;
+}
+.project-tags {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid red;
+    margin-top: 20px;
+    width: 50%;
+}
 /* === RESPONSIVE INTERVENTIONS === */
 
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
