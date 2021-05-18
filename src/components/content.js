@@ -24,6 +24,11 @@ const Content = [
                             src: "https://www.dropbox.com/s/qkqi84z1sq82qhx/rojineon-web.gif",
                             width: 4,
                             height: 3
+                        },
+                        {
+                            src: "https://www.dropbox.com/s/ns26gnsyvo1289d/ROJI-SANS.png",
+                            width: 1,
+                            height: 1
                         }
                     ],
                     text:

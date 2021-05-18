@@ -31,8 +31,8 @@ export function Project(props) {
                     <h1>{content.name}</h1>
                     <p className="project-paragraph">{content.relatedContent.text}</p>
                     <div className="project-tags">
-                        {content.relatedContent.tags.map(tag => {
-                            return <p>{tag}</p>;
+                        {content.relatedContent.tags.map((tag, i) => {
+                            return <p key={i}>{tag}</p>;
                         })}
                     </div>
                 </div>
