@@ -126,17 +126,15 @@ html {
 .toTop {
     position: fixed;
     bottom: 0;
-    margin: 20px;
-    border: 1px solid black;
-    background-image: url("./img/rojiscrolltop.png");
-    padding: 10px;
+    /* border: 1px solid black; */
+    margin: 40px;
     transition-duration: 0.4s;
 }
 
 .toTop:hover {
     cursor: pointer;
-    color: white;
-    background-color: black;
+    transform: scale(1.2);
+    /* box-shadow: 0px 1px 4px #130000; */
 }
 
 .filter {
@@ -308,6 +306,13 @@ li {
         height: auto;
     }
 
+    .toTop {
+        position: fixed;
+        bottom: 0;
+        /* border: 1px solid black; */
+        margin: 20px;
+        transition-duration: 0.4s;
+    }
     /* -- MOBILE FOOTER -- */
 
     /* .fixed-footer p{
