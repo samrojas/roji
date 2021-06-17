@@ -23,7 +23,14 @@ export function Project(props) {
         return (
             <div className="project">
                 <div className="project-photos">
-                    <img className="project-img" width="600px" height="500px" src={content.src} alt={content.name} />
+                    <img
+                        className="project-img"
+                        // crossorigin=""
+                        width="600px"
+                        height="500px"
+                        src={content.src}
+                        alt={content.name}
+                    />
                     <Gallery margin={5} photos={content.relatedContent.photos} direction={"column"} />
                 </div>
 
