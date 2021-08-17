@@ -528,7 +528,7 @@ function WorkContents(props) {
         },
 
         {
-            filter: "3d modeling",
+            filter: "3DCG",
             imgs: [
                 {
                     // Coudaltia: KIX Portable Calcutron
