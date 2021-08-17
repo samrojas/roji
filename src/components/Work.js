@@ -35,7 +35,7 @@ function Filters(props) {
         },
         {
             class: "filter",
-            text: "3D Modeling"
+            text: "3DCG"
         }
     ]);
     const setFilter = name => {
