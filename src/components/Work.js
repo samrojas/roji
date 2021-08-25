@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Gallery from "react-photo-gallery";
 import * as Scroll from "react-scroll";
+import scrollImage from "../img/rojiscrolltop.png";
+import withSizes from "react-sizes";
 
 function Filters(props) {
     const Link = Scroll.Link;
@@ -564,7 +566,7 @@ function WorkContents(props) {
     );
 }
 
-function Work() {
+function Work({ isMobile }) {
     const [selected, setSelected] = useState("All");
     const Link = Scroll.Link;
     return (
@@ -580,7 +582,7 @@ function Work() {
                     offset={-150}
                     className="toTop"
                 >
-                    <img src="./img/rojiscrolltop.png"></img>
+                    <img width={isMobile ? 50 : 70} height={isMobile ? 50 : 70} src={scrollImage}></img>
                 </Link>
             </div>
             <WorkContents selected={selected} />
@@ -588,4 +590,8 @@ function Work() {
     );
 }
 
-export default Work;
+const mapSizesToProps = ({ width }) => ({
+    isMobile: width < 480
+});
+
+export default withSizes(mapSizesToProps)(Work);
