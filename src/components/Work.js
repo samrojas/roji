@@ -37,7 +37,7 @@ function Filters(props) {
         },
         {
             class: "filter",
-            text: "3D Modeling"
+            text: "3DCG"
         }
     ]);
     const setFilter = name => {
@@ -530,7 +530,7 @@ function WorkContents(props) {
         },
 
         {
-            filter: "3d modeling",
+            filter: "3DCG",
             imgs: [
                 {
                     // Coudaltia: KIX Portable Calcutron
