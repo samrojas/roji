@@ -552,7 +552,7 @@ function WorkContents(props) {
     if (props.selected === "All") {
         imgs.map(x => (content = content.concat(x["imgs"])));
     } else {
-        let key = props.selected === "3D" ? props.selected : props.selected.toLowerCase();
+        let key = props.selected === "3DCG" ? props.selected : props.selected.toLowerCase();
         let collection = imgs.find(x => x.filter === key);
 
         content = collection.imgs;
