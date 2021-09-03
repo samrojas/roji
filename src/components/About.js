@@ -47,7 +47,7 @@ function About(){
                     <br></br>
                     <a href='https://orb.farm/' target="_blank">Orb.Farm</a>
                     <br></br>
-                    <a href='https://poolside.fm/' target="_blank">Poolside.fm</a>
+                    <a href='https://poolsuite.net/' target="_blank">Poolsuite.fm</a>
                     <br></br>
                     <a href='https://808303.studio/' target="_blank">Roland 808303 Studio</a>
                     <br></br>
@@ -60,7 +60,7 @@ function About(){
                 <br></br>
                 <hr></hr>
                 <br></br>
-                <img src="https://www.dropbox.com/s/pd7dn481ddczcve/ROJI%20logotype.png?dl=1" atl="ROJI logo"></img>
+                <img src="https://res.cloudinary.com/rojiroji/image/upload/v1623946079/Design/ROJI/ROJI_logotype_rtvluz.png" atl="ROJI logo"></img>
                 {/* <div className='ROJI-logotype'>
                     <p>ROJI</p>
                 </div> */}
