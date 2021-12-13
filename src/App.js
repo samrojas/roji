@@ -5,6 +5,7 @@ import Work from './components/Work';
 import About from './components/About'
 import { useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import Radio from './components/Radio';
 
 function App() {
   const [selected, setSelected] = useState('Work')
@@ -22,6 +23,9 @@ function App() {
         <Route path='/work'>
           <Work />
         </Route>
+        <Route path='/radio'>
+          <Radio />
+        </Route>  
       </Switch>
       <Footer />
     </div>

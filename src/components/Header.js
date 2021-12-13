@@ -16,6 +16,10 @@ function Header(props){
             },
             {
                 class: "",
+                text: 'Radio'
+            },
+            {
+                class: "",
                 text: "About"
             },
         ]
