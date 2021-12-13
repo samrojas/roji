@@ -12,7 +12,7 @@ function Header(props){
        [
             {
                 class: "button-selected",
-                text: 'Work'
+                text: 'Gallery'
             },
             {
                 class: "",

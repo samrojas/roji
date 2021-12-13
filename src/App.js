@@ -20,7 +20,7 @@ function App() {
         <Route path='/about'>
           <About/>
         </Route>
-        <Route path='/work'>
+        <Route path='/gallery'>
           <Work />
         </Route>
         <Route path='/radio'>
