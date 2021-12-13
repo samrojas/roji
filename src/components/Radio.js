@@ -4,7 +4,10 @@ function Radio() {
             <div class="radio-left-content">
                 <div class="radio-live-container">
                     <p class="radio-section-title">Live</p>
-                    <div class="radio-live-window">[LIVE CONTENT]</div>
+                    <div class="radio-live-window">
+                        <iframe src="https://mixlr.com/users/8206991/embed?artwork=true&color=#d92e2e" frameborder="0" scrolling="no" height="180px" width="100%"></iframe>
+                        {/* <small><a href="http://mixlr.com/rojisono" id="mixlr-link">rojisono is on Mixlr</a></small> */}
+                    </div>
                 </div>
 
                 <div class="radio-previous-container">
