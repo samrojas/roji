@@ -279,6 +279,15 @@ li {
     width: 45px;
 }
 
+/* Home Page Styling */
+.home-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
 /* Radio Page Styling */
 .radio-page-container {
     display: flex;
@@ -444,10 +453,13 @@ li {
     .radio-right-content {
         width: 100%;
     }
+
+    .home-page-container {
+        height: 86vh;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-    /* MOBILE RADIO PAGE */
     .radio-page-container {
         flex-flow: column nowrap;
         padding: 24px 24px;
@@ -455,5 +467,9 @@ li {
 
     .radio-left-content {
         min-width: auto;
+    }
+
+    .home-page-container {
+        height: 90vh;
     }
 }
