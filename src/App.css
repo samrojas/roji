@@ -291,8 +291,8 @@ li {
 .radio-left-content {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
     width: 40%;
+    min-width: 600px;
     margin-right: 24px;
 }
 
@@ -316,6 +316,7 @@ li {
     flex-flow: column nowrap;
     justify-content: center;
     width: 20%;
+    min-width: 235px;
 }
 
 .radio-collection {
@@ -328,7 +329,7 @@ li {
 /* === RESPONSIVE INTERVENTIONS === */
 
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
     /* -- MOBILE HEADER -- */
 
     header {
@@ -428,5 +429,31 @@ li {
     .paragraph p {
         font-size: 14px;
         text-align: left;
+    }
+
+    /* TABLET RADIO PAGE */
+    .radio-page-container {
+        flex-flow: column nowrap;
+    }
+    
+    .radio-left-content {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    
+    .radio-right-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* MOBILE RADIO PAGE */
+    .radio-page-container {
+        flex-flow: column nowrap;
+        padding: 24px 24px;
+    }
+
+    .radio-left-content {
+        min-width: auto;
     }
 }
