@@ -5,9 +5,11 @@ import Work from './components/Work';
 import About from './components/About'
 import { useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import Radio from './components/Radio';
+import Roji from './components/Roji';
 
 function App() {
-  const [selected, setSelected] = useState('Work')
+  const [selected, setSelected] = useState('Gallery')
   return (
     <div className="App">
       <Header selected={selected} setSelected={setSelected}/>
@@ -16,12 +18,18 @@ function App() {
         <Route exact path='/'>
           <Work />
         </Route>
+        <Route exact path='/roji'>
+          <Roji />
+        </Route>
         <Route path='/about'>
           <About/>
         </Route>
-        <Route path='/work'>
+        <Route path='/gallery'>
           <Work />
         </Route>
+        <Route path='/radio'>
+          <Radio />
+        </Route>  
       </Switch>
       <Footer />
     </div>

@@ -279,10 +279,66 @@ li {
     width: 45px;
 }
 
+/* Home Page Styling */
+.home-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+/* Radio Page Styling */
+.radio-page-container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 100%;
+    padding: 24px 96px;
+}
+
+.radio-left-content {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 40%;
+    min-width: 600px;
+    margin-right: 24px;
+}
+
+.radio-live-window {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#mixlr-link {
+    color: #1a1a1a;
+    display: block;
+    font-family: Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+}
+
+.radio-right-content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 20%;
+    min-width: 235px;
+}
+
+.radio-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
 /* === RESPONSIVE INTERVENTIONS === */
 
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
     /* -- MOBILE HEADER -- */
 
     header {
@@ -382,5 +438,38 @@ li {
     .paragraph p {
         font-size: 14px;
         text-align: left;
+    }
+
+    /* TABLET RADIO PAGE */
+    .radio-page-container {
+        flex-flow: column nowrap;
+    }
+    
+    .radio-left-content {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    
+    .radio-right-content {
+        width: 100%;
+    }
+
+    .home-page-container {
+        height: 86vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .radio-page-container {
+        flex-flow: column nowrap;
+        padding: 24px 24px;
+    }
+
+    .radio-left-content {
+        min-width: auto;
+    }
+
+    .home-page-container {
+        height: 90vh;
     }
 }
