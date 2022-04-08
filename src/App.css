@@ -307,7 +307,7 @@ li {
 
 .radio-live-window {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 100%;
     margin-bottom: 24px;
 }
@@ -333,6 +333,12 @@ li {
     justify-content: center;
     align-items: center;
     margin-bottom: 12px;
+}
+
+.many-more{
+    font-size: 12px;
+    font-style: italic;
+    justify-content: center;
 }
 
 /* === RESPONSIVE INTERVENTIONS === */

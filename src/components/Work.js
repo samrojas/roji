@@ -158,12 +158,12 @@ function WorkContents(props) {
                     width: 1,
                     height: 1
                 },
-                // {
-                //     // KN
-                //     src: "https://res.cloudinary.com/rojiroji/image/upload/v1623945309/Design/KN/KN_final_ozbu81.png",
-                //     width: 1,
-                //     height:1
-                // }
+                {
+                     // KN
+                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1623945309/Design/KN/KN_final_ozbu81.png",
+                     width: 1,
+                     height:1
+                }
             ]
         },
 
@@ -176,7 +176,12 @@ function WorkContents(props) {
                     width: 4,
                     height: 3
                 },
-
+                {
+                    // Sunshine Follies - Mix Cover
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649441284/Design/Playlist%20Covers/Sunshine_Follies_r22cg6.jpg",
+                    width: 1,
+                    height: 1
+                },
                 {
                     // Hibernation Cover
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1623945552/Design/J%20Sidney/hibernation-web.png",
@@ -190,10 +195,16 @@ function WorkContents(props) {
                     height: 1
                 },
                 {
-                    // Baylor Student Activities
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1623944934/Design/Baylor/BU-Graphic-web.jpg",
-                    width: 16,
-                    height: 9
+                    // Ritmo del Sol - Playlist Cover
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649441290/Design/Playlist%20Covers/ritmodelsol_cbzsnl.jpg",
+                    width: 1,
+                    height: 1
+                },
+                {
+                    // A Late Nite - Mix Cover
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649441320/Design/Playlist%20Covers/A_Late_Night_bp4p9f.jpg",
+                    width: 1,
+                    height: 1
                 },
                 {
                     // Sunny Daze - Playlist Cover
@@ -221,13 +232,13 @@ function WorkContents(props) {
                 },
                 {
                     // Island City - Playlist Cover
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1623945844/Design/Playlist%20Covers/Island_City_2_s6a1sc.jpg",
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649441261/Design/Playlist%20Covers/Island_City_22_v3_jfgwh3.jpg",
                     width: 1,
                     height: 1
                 },
                 {
                     // Island City Nights - Playlist Cover
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1630648071/Design/Playlist%20Covers/Island_City_Nights_tagdfw.jpg",
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649441341/Design/Playlist%20Covers/Island_City_Nights_nyr15q.jpg",
                     width: 1,
                     height: 1
                 },
@@ -251,7 +262,7 @@ function WorkContents(props) {
                 },
                 {
                     // Airtunes - Playlist Cover
-                    src:  'https://res.cloudinary.com/rojiroji/image/upload/v1630648380/Design/Playlist%20Covers/Airtunes_cdcnqw.jpg',
+                    src:  'https://res.cloudinary.com/rojiroji/image/upload/v1649441276/Design/Playlist%20Covers/Airtunes22_hulnin.jpg',
                     width: 1,
                     height: 1
                 },
@@ -312,6 +323,12 @@ function WorkContents(props) {
                 {
                     // CyberSound Tee
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1630652187/Design/ROJI/cybersound-tee_r125o2.png",
+                    width: 1,
+                    height: 1
+                },
+                {
+                    // Hackathon Tee
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649452030/Design/Apparel/Hackathon_v1_one-color_th6rf1.jpg",
                     width: 1,
                     height: 1
                 }
@@ -588,10 +605,22 @@ function WorkContents(props) {
                     height: 9
                 },
                 {
+                    // Peach
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649444502/Design/peach_bmhye6.gif",
+                    width: 16,
+                    height: 9
+                },
+                {
                     // Coudaltia: ZUI 00 Spacecraft
                     src: "https://www.dropbox.com/s/a0s7xjuu4igb001/zui_00-web.gif",
                     width: 16,
                     height: 9
+                },
+                {
+                    // Missing Maps
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649451802/Design/Missing%20Maps/MM_badge_hkrxbv.gif",
+                    width: 1,
+                    height: 1
                 }
             ]
         }

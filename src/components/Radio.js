@@ -14,16 +14,21 @@ function Radio() {
                 <div class="radio-live-container">
                     <p class="radio-section-title">Live</p>
                     <div class="radio-live-window">
-                        <iframe src="https://mixlr.com/users/8206991/embed?artwork=true&color=#d92e2e" frameborder="0" scrolling="no" height="180px" width="100%"></iframe>
-                        {/* <small><a href="http://mixlr.com/rojisono" id="mixlr-link">rojisono is on Mixlr</a></small> */}
+                        <iframe width="100%" height="250" src="https://www.mixcloud.com/widget/follow/?u=%2Frojiroji%2F" frameborder="0" ></iframe>                        
                     </div>
                 </div>
 
                 <div class="radio-previous-container">
                     <p class="radio-section-title">Previous Sets</p>
                     <div class="radio-previous-sets-wrapper">
-                        <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Frojiroji%2Froji-presents-a-knit-to-remember%2F" frameborder="0" ></iframe>
+                            <div class="radio-sets">
+                                <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Frojiroji%2Fsunshine-follies%2F" frameborder="0" ></iframe>
+                            </div>
+                            <div class="radio-sets">
+                                <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Frojiroji%2Froji-presents-a-knit-to-remember%2F" frameborder="0" ></iframe>
+                            </div>
                     </div>
+                    <p class="many-more">and more to come...</p>
                 </div>
             </div>
 
@@ -44,7 +49,16 @@ function Radio() {
                             <iframe src="https://open.spotify.com/embed/playlist/3KMvAQkikKDuXBBwUKSpC2?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
                         <div class="radio-collection">
+                            <iframe src="https://open.spotify.com/embed/playlist/7Fzw8Qe89tDLUfPiTbKEf7?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        </div>
+                        <div class="radio-collection">
                             <iframe src="https://open.spotify.com/embed/playlist/6Ypbl3jJHG1lfdJZ3Sh5lt?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        </div>
+                        <div class="radio-collection">
+                            <iframe src="https://open.spotify.com/embed/playlist/5ZNVuoOKoimoC8J8hEP2se?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        </div>
+                        <div class="radio-collection">
+                            <iframe src="https://open.spotify.com/embed/playlist/4fGXfE2iXKwy9fNjaztMkJ?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
                         {/* {SPOTIFY_COLLECTIONS.map(collection => {
                             return (
