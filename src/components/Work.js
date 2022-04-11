@@ -12,16 +12,12 @@ function Filters(props) {
             text: props.selected
         },
         {
-            class: "filter ",
-            text: "Branding"
-        },
-        {
             class: "filter",
             text: "Design"
         },
         {
             class: "filter",
-            text: "Drawing"
+            text: "Illustration"
         },
         {
             class: "filter",
@@ -85,6 +81,12 @@ function WorkContents(props) {
     const imgs = [
         {
             filter: "branding",
+            imgs: [
+               ]
+        },
+
+        {
+            filter: "design",
             imgs: [
                 {
                     // ROJI Logo
@@ -163,13 +165,8 @@ function WorkContents(props) {
                      src: "https://res.cloudinary.com/rojiroji/image/upload/v1623945309/Design/KN/KN_final_ozbu81.png",
                      width: 1,
                      height:1
-                }
-            ]
-        },
+                },
 
-        {
-            filter: "design",
-            imgs: [
                 {
                     // ROJI in Neon
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1630647262/Design/ROJI/rojineon-web_qv8o7n.gif",
@@ -282,7 +279,7 @@ function WorkContents(props) {
         },
 
         {
-            filter: "drawing",
+            filter: "illustration",
             imgs: [
                 {
                     //Yeshla
