@@ -244,7 +244,7 @@ function WorkContents(props) {
                 },
                 {
                     // CyberSound - Playlist Cover
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1623945813/Design/Playlist%20Covers/CyberSound_ch9cya.jpg",
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649705780/Design/Playlist%20Covers/CyberSound2_lxtsm1.jpg",
                     width: 1,
                     height: 1
                 },
