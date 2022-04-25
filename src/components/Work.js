@@ -603,9 +603,9 @@ function WorkContents(props) {
                 },
                 {
                     // Peach
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649444502/Design/peach_bmhye6.gif",
-                    width: 16,
-                    height: 9
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1650904612/Design/peach2_cj2h7v.png",
+                    width: 1,
+                    height: 1
                 },
                 {
                     // Coudaltia: ZUI 00 Spacecraft
