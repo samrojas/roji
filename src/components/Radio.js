@@ -34,11 +34,10 @@ function Radio() {
                                 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Frojiroji%2Froji-presents-a-knit-to-remember%2F" frameborder="0" ></iframe>
                             </div>
                     </div>
-                    <p class="many-more">and more to come...</p>
                 </div>
             </div>
 
-            <div class="radio-right-content">
+           {/*  <div class="radio-right-content">
                 <div class="radio-collections-container">
                     <p class="radio-section-title">Collections</p>
                     <div class="radio-collections-wrapper">
@@ -84,7 +83,7 @@ function Radio() {
                         })} */}
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
