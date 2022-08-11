@@ -591,7 +591,6 @@ function WorkContents(props) {
                 }
             ]
         },
-
         {
             filter: "3DCG",
             imgs: [
