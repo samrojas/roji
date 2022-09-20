@@ -1,0 +1,45 @@
+body{
+    background-image: url("https://res.cloudinary.com/rojiroji/image/upload/v1663641515/Design/ROJI/jeremy-perkins-uhjiu8FjnsQ-unsplash_re8vb2.jpg");
+    background-color: black;
+}
+
+hr{
+    color: white;
+}
+
+.content{
+  width: 75%;
+  align-content: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.logos{
+  width: 50px;
+}
+@font-face {
+    font-family: Hel Extended;  
+  src: url(https://res.cloudinary.com/rojiroji/raw/upload/v1663651957/Design/ROJI/HelveticaNeueLTStd-Ex_gtrg66.woff);
+  font-weight: bold;
+}
+
+h1, h2{
+    color: #FFFFFF;
+    font-family: Hel Extended;
+    font-size: inherit;
+}
+.button
+{
+  padding-bottom: 100px;
+}
+
+img{
+    filter: drop-shadow (0px 4px 32px rgba(255, 255, 255, 0.5));
+}
+
+@media only screen and (max-width: 769px) {
+ .button{
+   width: 50%;
+}
+}
