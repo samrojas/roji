@@ -3,7 +3,6 @@ function About(){
                 
     <div className="about">
        <div className='about-pic'>
-
        </div>
        <div className='paragraph-container'>
             <div className='header'>
