@@ -22,6 +22,9 @@ function Radio() {
                     <p class="radio-section-title">Previous Sets</p>
                     <div class="radio-previous-sets-wrapper">
                             <div class="radio-sets">
+                            <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Frojiroji%2Fisland-city%2F" frameborder="0" ></iframe>
+                            </div>
+                            <div class="radio-sets">
                                 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Frojiroji%2Fcybersound-ii%2F" frameborder="0" ></iframe>
                             </div>
                             <div class="radio-sets">
@@ -31,13 +34,13 @@ function Radio() {
                                 <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Frojiroji%2Fsunshine-follies%2F" frameborder="0" ></iframe>
                             </div>
                             <div class="radio-sets">
-                                <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Frojiroji%2Froji-presents-a-knit-to-remember%2F" frameborder="0" ></iframe>
+                            <iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Frojiroji%2Froji-presents-a-knit-to-remember%2F" frameborder="0" ></iframe>
                             </div>
                     </div>
                 </div>
             </div>
 
-           {/*  <div class="radio-right-content">
+           {  <div class="radio-right-content">
                 <div class="radio-collections-container">
                     <p class="radio-section-title">Collections</p>
                     <div class="radio-collections-wrapper">
@@ -65,7 +68,7 @@ function Radio() {
                         <div class="radio-collection">
                             <iframe src="https://open.spotify.com/embed/playlist/4fGXfE2iXKwy9fNjaztMkJ?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
-                        {/* {SPOTIFY_COLLECTIONS.map(collection => {
+                        {/* { {SPOTIFY_COLLECTIONS.map(collection => {
                             return (
                                 <Link
                                     activeClass="active"
@@ -80,10 +83,10 @@ function Radio() {
                                     <span className={filter.class}>{filter.text}</span>
                                 </Link>
                             );
-                        })} */}
+                        })} } */}
                     </div>
                 </div>
-            </div> */}
+            </div> }
         </div>
     );
 }
