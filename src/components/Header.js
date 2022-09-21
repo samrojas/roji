@@ -39,6 +39,11 @@ function Header(props){
         setButtons(buttonCopy) 
     }
 
+    // Don't show header on Stardust page
+    if (window.location.pathname.includes('stardust')) {
+        return null;
+    }
+
     return(
         <header className="header">
             <Link to="/roji">

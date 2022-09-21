@@ -341,6 +341,55 @@ li {
     justify-content: center;
 }
 
+/* === STARDUST PAGE === */
+@font-face {
+    font-family: Hel Extended;  
+    src: url(https://res.cloudinary.com/rojiroji/raw/upload/v1663651957/Design/ROJI/HelveticaNeueLTStd-Ex_gtrg66.woff);
+    font-weight: bold;
+}
+
+.stardust {
+    background-image: url("https://res.cloudinary.com/rojiroji/image/upload/v1663641515/Design/ROJI/jeremy-perkins-uhjiu8FjnsQ-unsplash_re8vb2.jpg");
+    background-color: black;
+}
+
+.stardust .content {
+    width: 75%;
+    align-content: center;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.stardust hr {
+    color: white;
+}
+
+.stardust .logos {
+    width: 50px;
+}
+
+.stardust h1 {
+    color: #FFFFFF;
+    font-family: Hel Extended;
+    font-size: inherit;
+}
+
+.stardust h2 {
+    color: #FFFFFF;
+    font-family: Hel Extended;
+    font-size: inherit;
+}
+
+.stardust .button {
+    padding-bottom: 100px;
+}
+
+.stardust img {
+    filter: drop-shadow (0px 4px 32px rgba(255, 255, 255, 0.5));
+}
+
 /* === RESPONSIVE INTERVENTIONS === */
 
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
@@ -462,6 +511,11 @@ li {
 
     .home-page-container {
         height: 86vh;
+    }
+
+    /* TABLET STARDUST PAGE */
+    .stardust .button {
+        width: 50%;
     }
 }
 
