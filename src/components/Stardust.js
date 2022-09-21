@@ -64,8 +64,8 @@ function Stardust() {
         <hr />
         <hr />
         <img 
-          src="https://res.cloudinary.com/rojiroji/image/upload/v1663648490/Design/ROJI/logo_lockup_i9epc3.png"
-          style={{width: "40%"}}/>
+          src="https://res.cloudinary.com/rojiroji/image/upload/v1663731897/Design/ROJI/logo_lockup_4x_kangiy.png"
+          style={{width: "300px"}}/>
           <h2><a href="https://roji.co/">OTHER ROJI THINGS</a></h2>
       </div>
     </div>
