@@ -5,7 +5,7 @@ function Stardust() {
     <div className="stardust">
       {/* METADATA SPECIFICALLY FOR THIS PAGE */}
       <Helmet>
-        <title>STARDUST DISCOTHEQUE</title>
+        <title>STARDUST DISCOTHÈQUE</title>
         <meta name="description" content="You're invited OCT 1 at 10 PM ET" />
         <meta property="og:title" content="ROJI's STARDUST DISCOTHÈQUE" />
         <meta property="og:description" content="You're invited OCT 1 at 10 PM ET" />
