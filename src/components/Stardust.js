@@ -28,7 +28,7 @@ function Stardust() {
         <hr />
         <div className="buttonspace">
           <h1>SAT. OCT 1 AT 10 PM ET <br /></h1>
-          <a class="button" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20221002T020000Z%2F20221002T060000Z&text=Sam's%20Birthday%20Party%20(a.k.a%20STARDUST%20DISCOTH%C3%88QUE)&location=Ask%20Sam%20for%20location%20or%20Mixcloud.com&details=Dress%20spacey%20or%20in%20whatever%20makes%20you%20feel%20groovy.%0AWe'll%20have%20snacks%20and%20drinks%20but%20we%20welcome%20more!%0A%0AStreet%20parking%20available%2C%20or%20you%20can%20take%20the%20T%20(66%20bus%2C%2039%20bus%2C%20D%20Green%20Line)">
+          <a class="button" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20221002T020000Z%2F20221002T050000Z&text=Sam's%20Birthday%20Party%20(a.k.a%20STARDUST%20DISCOTH%C3%88QUE)&location=Ask%20Sam%20for%20location%20or%20Mixcloud.com&details=Dress%20spacey%20or%20in%20whatever%20makes%20you%20feel%20groovy.%0AWe'll%20have%20snacks%20and%20drinks%20but%20we%20welcome%20more!%0A%0AStreet%20parking%20available%2C%20or%20you%20can%20take%20the%20T%20(66%20bus%2C%2039%20bus%2C%20D%20Green%20Line)">
             <img
               src="https://res.cloudinary.com/rojiroji/image/upload/v1663683760/Design/ROJI/addtogcal_p86bzm.png"
               style={{width: "200px"}}/>
