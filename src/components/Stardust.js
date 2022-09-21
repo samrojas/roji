@@ -26,25 +26,26 @@ function Stardust() {
 
         <hr />
         <hr />
-      
-        <h1>SAT. OCT 1 AT 10 PM ET <br /></h1>
-        <a class="button" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20221002T030000Z%2F20221002T060000Z&text=Sam's%20Birthday%20Party%20(a.k.a%20STARDUST%20DISCOTH%C3%88QUE)&location=88%20Boylston%20St%2C%20Brookline%2C%20MA%2002445&details=Dress%20spacey%20or%20in%20whatever%20makes%20you%20feel%20groovy.%0AWe'll%20have%20snacks%20and%20drinks%20but%20we%20welcome%20more!%0A%0AParking%20available%20on%20Route%209%2C%20or%20you%20can%20take%20the%20T%20(66%20bus%2C%2039%20bus%2C%20D%20Green%20Line)">
-          <img
-            src="https://res.cloudinary.com/rojiroji/image/upload/v1663683760/Design/ROJI/addtogcal_p86bzm.png"
-            style={{width: "200px"}}/>
-        </a>
-        <a class="button" href="https://res.cloudinary.com/rojiroji/raw/upload/v1663683670/Sam_s_Birthday_Party_a.k.a_STARDUST_DISCOTH%C3%88QUE_xfeqqa.ics">
-          <img
-            src="https://res.cloudinary.com/rojiroji/image/upload/v1663683760/Design/ROJI/addtoical_hrxqmr.png"
-            style={{width: "200px"}}/>
-        </a>
+        <div className="buttonspace">
+          <h1>SAT. OCT 1 AT 10 PM ET <br /></h1>
+          <a class="button" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20221002T030000Z%2F20221002T060000Z&text=Sam's%20Birthday%20Party%20(a.k.a%20STARDUST%20DISCOTH%C3%88QUE)&location=Ask%20Sam%20for%20location%20or%20Mixcloud.com&details=Dress%20spacey%20or%20in%20whatever%20makes%20you%20feel%20groovy.%0AWe'll%20have%20snacks%20and%20drinks%20but%20we%20welcome%20more!%0A%0AStreet%20parking%20available%2C%20or%20you%20can%20take%20the%20T%20(66%20bus%2C%2039%20bus%2C%20D%20Green%20Line)">
+            <img
+              src="https://res.cloudinary.com/rojiroji/image/upload/v1663683760/Design/ROJI/addtogcal_p86bzm.png"
+              style={{width: "200px"}}/>
+          </a><br></br><br></br>
+          <a className="button" href="https://res.cloudinary.com/rojiroji/raw/upload/v1663730484/Design/ROJI/Sam_s_Birthday_Party_a.k.a_STARDUST_DISCOTH%C3%88QUE_piv22e.ics">
+            <img
+              src="https://res.cloudinary.com/rojiroji/image/upload/v1663683760/Design/ROJI/addtoical_hrxqmr.png"
+              style={{width: "200px"}}/>
+          </a>
 
-        <h1>IN PERSON AT GIVEN LOCATION &<br /> </h1>
-        <a class="button" href="https://www.mixcloud.com/live/rojiroji">
-          <img
-            src="https://res.cloudinary.com/rojiroji/image/upload/v1663652157/Design/ROJI/liveonmixcloud_c7uith.png"
-            style={{width: "300px"}}/>
-        </a>
+          <h1>IN PERSON AT GIVEN LOCATION &<br /> </h1>
+          <a className="button" href="https://www.mixcloud.com/live/rojiroji">
+            <img
+              src="https://res.cloudinary.com/rojiroji/image/upload/v1663652157/Design/ROJI/liveonmixcloud_c7uith.png"
+              style={{width: "300px"}}/>
+          </a>
+        </div>
         <hr />
         <h2>theme is 'dancing on spaceship earth' <br />+ birthday celebration <br />+👽🚀💫🌎✨🎵</h2>
         <hr />
@@ -64,7 +65,8 @@ function Stardust() {
         <hr />
         <img 
           src="https://res.cloudinary.com/rojiroji/image/upload/v1663648490/Design/ROJI/logo_lockup_i9epc3.png"
-          style={{width: "50%"}}/>
+          style={{width: "40%"}}/>
+          <h2><a href="https://roji.co/">OTHER ROJI THINGS</a></h2>
       </div>
     </div>
   )

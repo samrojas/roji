@@ -362,27 +362,36 @@ li {
     text-align: center;
 }
 
+.stardust .buttonspace{
+    padding-bottom: 10px;
+}
+
 .stardust hr {
     color: white;
+
 }
 
 .stardust .logos {
-    width: 50px;
+    width: 10px;
 }
 
 .stardust h1 {
     color: #FFFFFF;
     font-family: Hel Extended;
     font-size: inherit;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .stardust h2 {
     color: #FFFFFF;
     font-family: Hel Extended;
     font-size: inherit;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.stardust .button {
+.stardust .a {
     padding-bottom: 100px;
 }
 
