@@ -137,12 +137,6 @@ function WorkContents(props) {
                     height: 9
                 },
                 {
-                    // Voyagers Logo
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1623945232/Design/Voyagers/voyagers-web_xcicxy.jpg",
-                    width: 1,
-                    height: 1
-                },
-                {
                     // ROJI-SONO
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1623946128/Design/ROJI/rojisono_lockup_ls2iik.png",
                     width: 1,
@@ -242,6 +236,12 @@ function WorkContents(props) {
                 {
                     // Sultana's Summer
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1687461471/Design/Playlist%20Covers/The_Sultana_s_Summer_Soir%C3%A9e_-_2023_update_jtqyfo.jpg",
+                    width: 1,
+                    height: 1
+                },
+                {
+                    // Voyagers Logo
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1623945232/Design/Voyagers/voyagers-web_xcicxy.jpg",
                     width: 1,
                     height: 1
                 },
