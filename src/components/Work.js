@@ -192,6 +192,18 @@ function WorkContents(props) {
                     height: 1
                 },
                 {
+                    // Ash's 30
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687461666/Design/ash-30th_siug8k.png",
+                    width: 1,
+                    height: 1
+                },
+                {
+                    // Field Forge
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687462058/Design/FF_mode_change_melwpv.gif",
+                    width: 1,
+                    height: 1
+                },
+                {
                     // Ritmo del Sol - Playlist Cover
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1649441290/Design/Playlist%20Covers/ritmodelsol_cbzsnl.jpg",
                     width: 1,
@@ -216,12 +228,6 @@ function WorkContents(props) {
                     height: 1
                 },
                 {
-                    // The Lost Summer - Title Card
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1623948346/Videos/Summer%20Saga/TLS-TitleCard.png",
-                    width: 4,
-                    height: 3
-                },
-                {
                     // Primavera - Playlist Cover
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1623945797/Design/Playlist%20Covers/Primavera2022_zt89fg.jpg",
                     width: 1,
@@ -229,7 +235,25 @@ function WorkContents(props) {
                 },
                 {
                     // Island City - Playlist Cover
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649441261/Design/Playlist%20Covers/Island_City_22_v3_jfgwh3.jpg",
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687461485/Design/Playlist%20Covers/Island_City_2022_-_FINAL_2x_oxfsi6.jpg",
+                    width: 1,
+                    height: 1
+                },
+                {
+                    // Sultana's Summer
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687461471/Design/Playlist%20Covers/The_Sultana_s_Summer_Soir%C3%A9e_-_2023_update_jtqyfo.jpg",
+                    width: 1,
+                    height: 1
+                },
+                {
+                    // Cybersound II
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687461491/Design/Playlist%20Covers/CYBERSOUND_II_2x_of9qra.jpg",
+                    width: 1,
+                    height: 1
+                },
+                {
+                    // Hot Nights
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687461489/Design/Playlist%20Covers/HotNightsinFirenze-edit_fplvnd.jpg",
                     width: 1,
                     height: 1
                 },
@@ -252,8 +276,8 @@ function WorkContents(props) {
                     height: 1
                 },
                 {
-                    // Rhythm and Bass - Playlist Cover
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/c_scale,w_481/v1623945802/Design/Playlist%20Covers/R_BASS2_lghsp6.jpg",
+                    // DMX
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687461518/Design/Playlist%20Covers/2004_DMX_Express_c1r9sw.jpg",
                     width: 1,
                     height: 1
                 },
