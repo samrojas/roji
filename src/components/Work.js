@@ -434,6 +434,18 @@ function WorkContents(props) {
                     height: 4
                 },
                 {
+                    // Stairs Down
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687463295/Photos/down_stairs_npwfry.jpg",
+                    width: 3,
+                    height: 4
+                },
+                {
+                    // Moher
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687463236/Photos/Moher_zbmltv.jpg",
+                    width: 3,
+                    height: 4
+                },
+                {
                     // Sunset
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1623946733/Photos/sunset-web.jpg",
                     width: 4,
@@ -452,6 +464,12 @@ function WorkContents(props) {
                     height: 3
                 },
                 {
+                    // Blanchards
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687463227/Photos/Blanchards_hmiuu3.jpg",
+                    width: 3,
+                    height: 4
+                },
+                {
                     // Barcelona Metro
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1623946729/Photos/barcametro-web.jpg",
                     width: 16,
@@ -468,6 +486,12 @@ function WorkContents(props) {
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1623946732/Photos/rockyshores-web.jpg",
                     width: 4,
                     height: 3
+                },
+                {
+                    // Hills of LA
+                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687463304/Photos/Hills_of_LA_brxbe0.jpg",
+                    width: 16,
+                    height: 9
                 },
                 {
                     // Bath Street
