@@ -252,12 +252,6 @@ function WorkContents(props) {
                     height: 1
                 },
                 {
-                    // Hot Nights
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1687461489/Design/Playlist%20Covers/HotNightsinFirenze-edit_fplvnd.jpg",
-                    width: 1,
-                    height: 1
-                },
-                {
                     // Island City Nights - Playlist Cover
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1649441341/Design/Playlist%20Covers/Island_City_Nights_nyr15q.jpg",
                     width: 1,
