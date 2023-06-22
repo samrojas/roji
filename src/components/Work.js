@@ -198,12 +198,6 @@ function WorkContents(props) {
                     height: 1
                 },
                 {
-                    // Ritmo del Sol - Playlist Cover
-                    src: "https://res.cloudinary.com/rojiroji/image/upload/v1649441290/Design/Playlist%20Covers/ritmodelsol_cbzsnl.jpg",
-                    width: 1,
-                    height: 1
-                },
-                {
                     // A Late Nite - Mix Cover
                     src: "https://res.cloudinary.com/rojiroji/image/upload/v1649441320/Design/Playlist%20Covers/A_Late_Night_bp4p9f.jpg",
                     width: 1,
